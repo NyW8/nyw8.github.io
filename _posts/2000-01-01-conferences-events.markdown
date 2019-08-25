@@ -3,7 +3,6 @@ layout: post
 title:  "Conferences/Events/Awards"
 description: A list of conferences/events I have attended and awards recieved
 date:   2500-01-01 17:38:17 -0400
-categories: [Conferences, Events]
 ---
 This is a list of conferences and events I have had the privledge of attending:
 And also of awards I have recieved.

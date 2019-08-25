@@ -4,7 +4,6 @@ title:  "MuQueue"
 img: muqueue-banner.png
 description: An app created as part of the Hack the Valley 3 Hackathon.
 date:   2019-02-24 17:38:17 -0400
-categories: [Python, JavaScript, GCP, HTML, CSS, MuQueue, HTV3, UTSC]
 ---
 MuQueue is an app created as part of the Hack the Valley 3 Hackathon. 
 
