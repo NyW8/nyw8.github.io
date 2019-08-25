@@ -4,7 +4,6 @@ title:  "GlobeNotes"
 img: globenotes-banner.jpg
 date:   2018-08-06 17:38:17 -0400
 description: A travel website created as part of Google's CSSI program.
-categories: [GlobeNotes, Google, CSSI, GCP, HTML, Python, JavaScript, CSS]
 ---
 GlobeNotes is a travel information website designed to be the SparkNotes of travel.
 
