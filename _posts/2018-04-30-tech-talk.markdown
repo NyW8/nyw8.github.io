@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Tech Talk"
+img: techtalk-banner.png
+date:   2018-04-30 17:38:17 -0400
+description: Tech Talk is a program I started to help seniors learn technology.
+categories: [Tech Talk, Seniors, Teens, Teaching]
+---
+Tech Talk is a program I created in collaboration with my local library to help seniors learn how to use technology.
+
+I first realized the need to have a program like this when I began teachning my grandparents how to use their own smartphones and tablets.
+I wondered how those without tech-savvy people around them were able to manage technology and decided to do something about it.
+
+With the help of the library, together we launched Tech Talk. 
+It focused on pairing seniors and teens to answer the seniors' questions about basic technology problems such as 
+sending photos over email, or learning to use the browser on their tablet.
+
+By the end of six months, we had been able to help over 100 local seniors with their tech issues.
+
+As part of recognition of this program, I was invited to take part in the 2018 Youth Library Expo, where I was part of a panel answering questions about getting youth more engaged with their communities and having positive impacts.
+In addition, I was awarded the Owen Sound Youth Volunteer of the Year 2018 award for the impact this program had on our community.
+
+I am honoured to have been able to make a difference to those who attended the sessions and hope to make a positive difference in the world and show what is possible to achieve.

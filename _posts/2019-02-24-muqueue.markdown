@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "MuQueue"
+img: muqueue-banner.png
+description: An app created as part of the Hack the Valley 3 Hackathon.
+date:   2019-02-24 17:38:17 -0400
+categories: [Python, JavaScript, GCP, HTML, CSS, MuQueue, HTV3, UTSC]
+---
+MuQueue is an app created as part of the Hack the Valley 3 Hackathon. 
+
+It is a music queue-ing webapp that allows users to upvote and request songs so that music curators can create a customized playlist for the crowd. 
+
+
+Languages/Frameworks used:
+{% highlight linenos %}
+Python
+JavaScript
+Google Cloud Platform
+HTML
+CSS
+{% endhighlight %}
+
+Thanks to my team for making this such a great project: Gbemi, Pascale, and Ahad.
+
+
+Check out the [MuQueue site][muqueue-site] to see the site itself, or take a look at its [github repo][muqueue-repo].
+
+[muqueue-site]: https://muqueue.appspot.com
+[muqueue-repo]: https://github.com/NyW8/web-app
