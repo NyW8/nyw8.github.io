@@ -8,7 +8,7 @@ tag: [seniors, teens, entrepreneurship, tech]
 ---
 Tech Talk is a program I created in collaboration with my local library to help seniors learn how to use technology.
 
-I first realized the need to have a program like this when I began teachning my grandparents how to use their own smartphones and tablets.
+I first realized the need to have a program like this when I began teaching my grandparents how to use their own smartphones and tablets.
 I wondered how those without tech-savvy people around them were able to manage technology and decided to do something about it.
 
 With the help of the library, together we launched Tech Talk. 

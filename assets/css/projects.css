@@ -133,6 +133,14 @@ strong {
   font-weight: bolder;
 }
 
+.postimg{
+  width: 30%;
+}
+.contentbox{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
@@ -4206,7 +4214,7 @@ cite {
 }
 
 .social_footer {
-  padding: 5px 0;
+  padding: 3rem 0;
   list-style: none;
   margin: 0;
   text-align: center;
@@ -4366,7 +4374,7 @@ cite {
 }
 
 .author {
-  padding: 2rem 0.5rem;
+  padding: 2rem 0;
   margin-bottom: 1.5rem;
   background-color: #ffffff;
 }
@@ -4814,7 +4822,7 @@ cite {
     top: 32px;
   }
   .social_footer {
-    padding: 5px 0;
+    padding: 2rem 0;
   }
   .social_footer a {
     padding: 0.5rem 1rem;
@@ -4892,10 +4900,8 @@ cite {
   }
   .author .author_info .author_title {
     font-size: 1.2rem;
-    margin-top: 1rem;
-	margin-bottom: 0;
+    margin-top: 0;
   }
-  .author .
   .author .author_social span {
     display: inline-block;
     padding-right: 0.5rem;
