@@ -45,8 +45,8 @@ mailchimp: # add your MailChimp form identifier. For example - blogenjoyfreedom.
 analytics:
 
 # Paginate
-paginate: 12
-paginate_path: /page:num/
+paginate: 1
+paginate_path: /projects/page:num/
 
 # Build settings
 markdown: kramdown

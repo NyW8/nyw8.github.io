@@ -3857,8 +3857,8 @@ body {
 	background:white;
 	border-radius: 10px;
 	margin: 6vh 6vw 6vh 6vw;
-	animation-delay:0.8s;
-	animation-duration:0.7s;
+	animation-delay:0.9s;
+	animation-duration:0.8s;
 	animation-fill-mode: both;
 	animation-name: fadeInDown;
 }
@@ -3878,10 +3878,7 @@ body {
 .resume .title{
 	color: white;
 	padding-left: 6vw;
-	animation-delay:0.8s;
-	animation-duration:0.7s;
-	animation-fill-mode: both;
-	animation-name: fadeInDown;
+	padding-top: 10px;
 }
 .resume a{
 	color: #4fa5d0;
@@ -3894,6 +3891,17 @@ body {
 .resume .details {
 	font-size: 1.0rem;
 	margin: 0;
+}
+.resume {
+	background-image: url(../img/resume-img.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size: auto 100vh;
+	animation-delay:0.8s;
+	animation-duration:0.7s;
+	animation-fill-mode: both;
+	animation-name: fadeInDown;
 }
 
 p {
