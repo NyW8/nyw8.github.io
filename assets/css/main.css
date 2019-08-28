@@ -3853,6 +3853,17 @@ body {
   background-color: #262626;
   margin: 0;
 }
+.four04{
+	color:white;
+}
+.four04 .title{
+	font-size: 1.5rem;
+}
+.four04 .explaination{
+	font-size: 1.0rem;
+}
+
+
 .resume .box {
 	background:white;
 	border-radius: 10px;
