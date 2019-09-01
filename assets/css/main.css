@@ -4701,11 +4701,15 @@ cite {
   position: relative;
   width: 100%;
   height: 100vh;
-  min-height: 700px;
+  min-height: 800px;
   background-image: url(../img/bg_about.jpg);
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+  animation-delay:0.8s;
+  animation-duration:0.7s;
+  animation-fill-mode: both;
+  animation-name: fadeInDown;
 }
 
 .events .event {
@@ -4759,7 +4763,7 @@ cite {
 
 .event .info .author_title {
   font-size: 1.5rem;
-  margin-top: 0;
+  margin-bottom: 0;
   color: #262626;
 }
 
