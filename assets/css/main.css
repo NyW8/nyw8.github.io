@@ -3864,7 +3864,7 @@ body {
 }
 
 
-
+/*------Resume page--------*/
 .resume .box {
 	background:white;
 	border-radius: 10px;
@@ -3891,6 +3891,7 @@ body {
 	color: white;
 	padding-left: 6vw;
 	padding-top: 10px;
+	margin: 0;
 }
 .resume a{
 	color: #4fa5d0;
@@ -3905,16 +3906,29 @@ body {
 	margin: 0;
 }
 .resume {
-	background-image: url(../img/resume-img.jpg);
-	background-position:center;
-	background-repeat:no-repeat;
 	background-attachment:fixed;
 	background-size: auto 100vh;
+	background-image: url(../img/sweden.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	
 	animation-delay:0.8s;
 	animation-duration:0.7s;
 	animation-fill-mode: both;
 	animation-name: fadeInDown;
+	
+	/*
+  width: 100%;
+  height: 100vh;
+  min-height: 700px;
+  background-image: url(../img/sweden.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;*/
 }
+/*-------end resume page------*/
+
+
 
 p {
   font-size: 1.1rem;
@@ -4706,6 +4720,7 @@ cite {
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+  
   animation-delay:0.8s;
   animation-duration:0.7s;
   animation-fill-mode: both;
