@@ -42,7 +42,6 @@ layout: default
         </div>
         <div class="post_tag">
           <span>Tags:</span>
-		  <p id="post-meta">{{ tags_content }}</p>
           {% for tag in page.tags %}
           <a href="{{site.baseurl}}/tags#{{tag}}" class="tag">{{ tag }}</a>
           {% endfor %}
@@ -78,7 +77,7 @@ layout: default
 
   <section class="recent_box">
     <div class="post_wrapper">
-      <h2 class="recent_title">Other projects:</h2>
+      <h2 class="recent_title">Other things I've worked on:</h2>
       <div class="recent_list">
         {% for post in site.posts offset:0 limit:6 %}
           {% if post.title %}
