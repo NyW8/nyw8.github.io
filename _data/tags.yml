@@ -1,5 +1,5 @@
-- slug: projects
+projects:
   name: Projects
   
-- slug: UTSC
-  name: UTSC
+coursework:
+  name: Coursework

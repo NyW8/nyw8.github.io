@@ -4,7 +4,7 @@ title: "Tech Talk"
 img: techtalk-banner.png # Add image post (optional)
 date: 2018-04-30 12:54:00 +0300
 description: Tech Talk is a program I started to help seniors learn technology.
-tag: [seniors, teens, entrepreneurship, tech]
+tag: [projects]
 ---
 Tech Talk is a program I created in collaboration with my local library to help seniors learn how to use technology.
 
