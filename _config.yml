@@ -49,7 +49,7 @@ paginate: 1
 paginate_path: /projects/page:num/
 
 # Build settings
-markdown: kramdown
+markdown: CommonMarkGhPages #kramdown
 plugins_dir:
   - jekyll-paginate
   - jekyll-sitemap

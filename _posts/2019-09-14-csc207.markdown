@@ -2,12 +2,14 @@
 layout: post
 title: "CSC207 Notes"
 img: csc207-banner.jfif # Add image post (optional)
-date: 2018-04-30 12:54:00 +0300
+date: 2018-09-01 12:54:00 +0300
 description: CSC207 software engineering class notes
 tag: [coursework]
 ---
 
 # PCRS Quest 1
+<details><summary>Click to show Quest 1 material</summary><p>
+
 ## Hello World
 - no code exists outside a class
 - there are no functions, but methods exists
@@ -98,7 +100,7 @@ String a = "hi"; a = "hello";	//NOT valid
 ## Classes
 ```java
 int i = ___; String val = String.valueOf(i);	//turns an int to a string
-System.out.println(Integer.BYTES);				//prints the number of bytes of an integer
+System.out.println(Integer.BYTES);		//prints the number of bytes of an integer
 ```
 - automatic de-allocation when variable doesn't refer to anything, don't need to free anything
 - can explicitly de-allocate by setting a variable to null
@@ -213,3 +215,47 @@ public boolean equals(Object obj){
   - each variable in a method call is an argument
 - each argument passed to a method tries to create an alias
   - for primitives, just copies value, for reference, it mutates values
+  
+</p></details>
+
+
+# PCRS Quest 2
+<details><summary>Click to show Quest 2 material</summary><p>
+
+## Overloading
+- two methods that have the same name but different parameters
+- one can be a default, and the other can call it, or they can process inputs differently, etc
+- must be inside the same class
+- interfaces are clearer to work with
+  - I DONT FULLY UNDERSTAND INTERFACE VS CLASS
+
+## Static
+- means you can have (for example) one variable that each instance of a class shares
+- make good counters, etc
+- kind of like global variables, but better
+- static variables can be inside any methods
+- regular variables CANNOT be inside static methods
+
+## toString and equals
+- toString has an default method already created for each object
+  - can create your own toString method that overrides default
+  - all object types have a toString method
+- equals has a default method already created for each object
+  - like toString, can override default
+- hashmaps can map an object to a list
+
+## Equality (== vs. equals) pt 1
+- '==' checks if references are the same
+- 'equals' checks if the content is the same
+  - every class has an equals method (defaulted to checking identities if you didn't declare it)
+- **string interning** is where Java saves space by using only one object for each distinct string
+  - calling 'new' creates a new version of that string
+  - [][][]If declaring two new strings, and then a third not-new one, which one is reused?
+
+```java
+String s1 = "ice cream";
+String s2 = "ice" + " " + "cream";
+System.out.println(s1 == s2); //prints true
+```
+
+</p></details>
