@@ -32,6 +32,15 @@ tag: [coursework]
 ### Design principles
 - techniques for making programs easy to read, **hard to break**, maintainable, and efficient (for people)
 
+### SOLID design:
+- **S**ingle reponsibility principle: A class should have one, and only one, reason to change
+- **O**pen/closed principle: Classes should be open for extension but closed for modification
+- **L**iskov substitution principle: Subclasses should add to a base class’s behaviour, not replace it
+- **I**nterface segregation principle: Many client-specific interfaces are better than one general-purpose interface
+- **D**ependency inversion principle: 
+  - high-level code shouldn’t depend on low-level code, both should depend on abstractions
+  - abstractions shouldn’t depend on details, details depend on abstractions
+
 </p></details>
 
 
