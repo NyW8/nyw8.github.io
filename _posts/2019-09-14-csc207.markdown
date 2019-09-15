@@ -6,6 +6,34 @@ date: 2018-09-01 12:54:00 +0300
 description: CSC207 software engineering class notes
 tag: [coursework]
 ---
+# Lecture Notes
+<details><summary>Click to show lecture material</summary><p>
+
+## Object oriented programming
+
+### Features
+- Abstraction: the essential characteristics of something
+- Encapsulation:
+  - putting data together with methods to manipulate it
+  - hiding how it all works behind the schenes
+- Inheritance: subclasses getting features of another class
+- Polymorphism: 
+  - an expression can take on different things
+  - e.g. method calls that have different types as an inputs
+
+### Coupling and cohesion
+- coupling: how closely two classes are linked
+  - high coupling: changes to one class means a lot of changes in other classes
+  - low coupling: changes to one class shouldn't affect others too much (this is preferred!)
+- cohesion: how closely related features of a class are
+  - high cohesion: methods are strongly-related (this is preferred!)
+  - low cohesion: methods are not that related and don't seem to make that much sense as a package together
+
+### Design principles
+- techniques for making programs easy to read, **hard to break**, maintainable, and efficient (for people)
+
+</p></details>
+
 
 # PCRS Quest 1
 <details><summary>Click to show Quest 1 material</summary><p>
