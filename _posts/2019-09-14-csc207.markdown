@@ -255,11 +255,12 @@ public boolean equals(Object obj){
   
 </p></details>
 
-
+<!--
 # PCRS Quest 2
 <details><summary>Click to show Quest 2 material</summary><p>
 
-## Overloading
+
+## Overloading 
 - two methods that have the same name but different parameters
 - one can be a default, and the other can call it, or they can process inputs differently, etc
 - must be inside the same class
@@ -289,10 +290,12 @@ public boolean equals(Object obj){
   - calling 'new' creates a new version of that string
   - [][][]If declaring two new strings, and then a third not-new one, which one is reused?
 
+
 ```java
 String s1 = "ice cream";
 String s2 = "ice" + " " + "cream";
 System.out.println(s1 == s2); //prints true
 ```
-
+Coming soon!
 </p></details>
+-->
