@@ -255,17 +255,15 @@ public boolean equals(Object obj){
   
 </p></details>
 
-<!--
+
 # PCRS Quest 2
 <details><summary>Click to show Quest 2 material</summary><p>
 
-
-## Overloading 
+## Overloading
 - two methods that have the same name but different parameters
 - one can be a default, and the other can call it, or they can process inputs differently, etc
 - must be inside the same class
 - interfaces are clearer to work with
-  - I DONT FULLY UNDERSTAND INTERFACE VS CLASS
 
 ## Static
 - means you can have (for example) one variable that each instance of a class shares
@@ -288,14 +286,85 @@ public boolean equals(Object obj){
   - every class has an equals method (defaulted to checking identities if you didn't declare it)
 - **string interning** is where Java saves space by using only one object for each distinct string
   - calling 'new' creates a new version of that string
-  - [][][]If declaring two new strings, and then a third not-new one, which one is reused?
-
+  - Something to think about: If declaring two new strings, and then a third not-new one, which one is reused?
 
 ```java
 String s1 = "ice cream";
 String s2 = "ice" + " " + "cream";
 System.out.println(s1 == s2); //prints true
 ```
-Coming soon!
+
+## Comparator and Comparable
+- can use '.sort' on any array of comparable types
+
+```java
+public static void sort(Object[] a){}	//the sort method (default)
+----------
+//to let sort do its job, need to implement the below:
+//to have comparability, must also have the class implement:
+class ClassName implements Comparable<ClassName> {
+	//comparable stuff in here
+	int compareTo (ClassName o){
+		//return negative if less than
+		//return 0 if equal to
+		//return positive if greater than
+	}
+}
+```
+
+- implements Comparable<ClassName> rather than Comparable since this class can be compared to any object of ClassName
+- to add functionality for comparing by different fields:
+
+```java
+//in the ClassName class, define the method
+int compare(ClassName c1, ClassName c2){
+	//compare somehow here (default comparing)
+}
+//add another class to compare by another field
+import java.util.Comparator
+class SpecificFieldComparator implements Comparator<ClassName>{
+	@Override
+	public int compare (ClassName c1, ClassName c2){
+		//compare by that specific field
+	}
+}
+//then from main program, can call sort using:
+Arrays.sort(array_name, new SpecificFieldComparator());
+```
+
+## Inheritance
+  - extends vs implements?
+
+```java
+class BigClass {
+	private int bigInt;
+	public BigClass(int newInt){
+		bigInt = newInt;
+	}
+	//stuff in here
+}
+class SmallerClass extends BigClass {
+	private int smallInt;
+	public SmallerClass(int newIntSmall, int newIntBig){
+		super(newIntBig); 	//call constructor of BigClass with this value
+		smallInt = newIntSmall;	//initialize our new variable too
+	}
+	//note that bigInt is private so we do not have access to it here
+	//to change the value of bigInt, must call a method from BigClass that has access
+}
+
+//this is also valid:
+class BigClass{
+	private int bigInt;
+	public BigClass(){}
+	public BigClass(int newInt){
+		bigInt = newInt;
+	}
+}
+class SmallerClass extends BigClass{
+	//automatically calls BigClass() as the constructor, don't need to add 'super()'
+	public SmallerClass(){}
+}
+```
+
 </p></details>
--->
