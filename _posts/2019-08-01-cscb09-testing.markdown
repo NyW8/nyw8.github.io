@@ -137,13 +137,14 @@ size_t fwrite(const void *buf, size_t size, size_t n, FILE *fptr);
 #include "path"		//searches for path in current directory
 
 #define MY_CONSTANT const_value_here	//replace MY_CONSTANT with const_value_here everywhere it is found
-#undefine MY_CONSTANT					//stops replacement of MY_CONSTANT
+#undefine MY_CONSTANT	//stops replacement of MY_CONSTANT
 
-#ifdef MY_CONSTANT		//do next code if MY_CONSTANT is defined
+#ifdef MY_CONSTANT	//do next code if MY_CONSTANT is defined
 #endif
 
-#ifndef MY_CONSTANT		//do next code if MY_CONSTANT is not defined
+#ifndef MY_CONSTANT	//do next code if MY_CONSTANT is not defined
 #elif MY_OTHER_CONSTANT	//do next code if MY_OTHER_CONSTANT is defined instead
-#else					//do next code in all other cases
+#else			//do next code in all other cases
 #endif
+```
 </p></details>
