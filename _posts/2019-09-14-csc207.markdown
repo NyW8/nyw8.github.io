@@ -352,8 +352,11 @@ class SmallerClass extends BigClass {
 	//note that bigInt is private so we do not have access to it here
 	//to change the value of bigInt, must call a method from BigClass that has access
 }
+```
 
-//this is also valid:
+This is also valid:
+
+```java
 class BigClass{
 	private int bigInt;
 	public BigClass(){}
@@ -361,8 +364,8 @@ class BigClass{
 		bigInt = newInt;
 	}
 }
-class SmallerClass extends BigClass{
-	//automatically calls BigClass() as the constructor, don't need to add 'super()'
+//automatically calls BigClass() as the constructor, don't need to add 'super()'
+class SmallerClass extends BigClass{ 
 	public SmallerClass(){}
 }
 ```
