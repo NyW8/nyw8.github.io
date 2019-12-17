@@ -1,0 +1,45 @@
+---
+layout: post
+title: "Rakuten Kobo Co-op"
+img: kobo-banner.jpg # Add image post (optional)
+date: 2019-09-01 12:55:00 +0300
+description: A co-op at Raktuen Kobo as a QA and full-stack developer.
+tag: [coursework]
+category: coursework
+---
+This was my first co-op during university. Here are some of my thoughts on both the position and the company.
+
+I really enjoyed the feel of working at Kobo, everyone I met there was very friendly and tried to help me with everything I had issues with. Another thing I enjoyed was that close to everyone there was a book lover. It was a nice feeling to be surrounded by others who also loved books, which seems to be rare now.
+
+I started as a quality assurance co-op and gradually moved towards doing full-stack development as I got more comfortable with Kobo's system. 
+
+The primary project I worked on was a payment processor switch which included recreating one of the pages from an older side of Kobo's website. The UI that I got to work on was really interesting too. Since it had to work on both EPDs (eReaders), as well as mobile and web devices, there was a lot more to take into consideration.
+
+Languages/Frameworks used:
+{% highlight linenos %}
+.NET C#
+SQL
+JavaScript
+HTML
+CSS
+Powershell
+{% endhighlight %}
+
+Tools used:
+{% highlight linenos %}
+Jenkins
+Splunk
+QUnit (for C# testing)
+{% endhighlight %}
+
+<figure>
+<img src="./../assets/img/kobo-page.png" width=100% alt="The page I worked on at Kobo">
+<figcaption>Above is the page I worked on while at Kobo, note that this page is not finished.</figcaption>
+</figure>
+
+Thank you to my team (in no order): Joseph, Judy, Sean, Gustav, Yesha, Cheng. All of you made every day interesting and tackled new challenges/problems without complaint.
+
+The Kobo site is [here][kobo-site] and a link to the live page I worked on will be posted once it is up in production (mid to late January).
+
+[kobo-site]: https://www.kobo.com/
+[my-ui-kobo-site]: https://www.kobo.com/account/billing
