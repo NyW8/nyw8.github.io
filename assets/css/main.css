@@ -4361,10 +4361,15 @@ cite {
   margin-bottom: 3rem;
 }
 
+.post_image {
+	overflow: hidden;
+	position: relative;
+	max-height: 500px;
+	width: 100%;
+}
+
 .post header img {
-  width: 100%;
-  max-height: 500px;
-  vertical-align: middle;
+	width: 100%;
 }
 
 .post header .post_description {
