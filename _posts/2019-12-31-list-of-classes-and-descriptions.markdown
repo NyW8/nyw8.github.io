@@ -2,11 +2,11 @@
 layout: post
 title: "All Classes and Descriptions"
 img: courses.jpg # Add image post (optional)
-date: 2018-12-31 12:54:00 +0300
+date: 2019-12-31 12:54:00 +0300
 description: A list of the coursework and classes Nyah has taken.
 tag: [coursework]
 ---
-# Computer Science Classes:
+# Computer Science classes:
 
 ### CSCA08: Introduction to Computer Science I
 [Link to course][csca08] 
@@ -33,7 +33,7 @@ Opens the door to Unix/Linux command line and scripting languages using C and ba
 
 Software design concepts using Java, including unit testing, refactoring, design patterns, regexs, etc. Also has a large group project using Android Studio to create a mobile games app.
 
-# Math Classes:
+# Math classes:
 
 ### CSCA67: Discrete Mathematics
 [Link to course][csca67]
