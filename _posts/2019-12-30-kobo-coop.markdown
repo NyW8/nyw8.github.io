@@ -13,7 +13,15 @@ I really enjoyed the feel of working at Kobo, everyone I met there was very frie
 
 I started as a quality assurance co-op and gradually moved towards doing full-stack development as I got more comfortable with Kobo's system. 
 
-The primary project I worked on was a payment processor switch which included recreating one of the pages from an older side of Kobo's website. The UI that I got to work on was really interesting too. Since it had to work on both EPDs (eReaders), as well as mobile and web devices, there was a lot more to take into consideration.
+The primary project I worked on was a payment processor switch which included recreating one of the pages from an older side of Kobo's website:
+
+
+<figure>
+<img src="./../assets/img/kobo-page.png" width=100% alt="The page I worked on at Kobo">
+<figcaption>Above is the page I worked on while at Kobo, note that this page is not finished.</figcaption>
+</figure>
+
+ The UI that I got to work on was really interesting too. Since it had to work on both EPDs (eReaders), as well as mobile and web devices, there was a lot more to take into consideration.
 
 Languages/Frameworks used:
 {% highlight linenos %}
@@ -31,11 +39,6 @@ Jenkins
 Splunk
 QUnit (for C# testing)
 {% endhighlight %}
-
-<figure>
-<img src="./../assets/img/kobo-page.png" width=100% alt="The page I worked on at Kobo">
-<figcaption>Above is the page I worked on while at Kobo, note that this page is not finished.</figcaption>
-</figure>
 
 Thank you to my team (in no order): Joseph, Judy, Sean, Gustav, Yesha, Cheng. All of you made every day interesting and tackled new challenges/problems without complaint.
 
