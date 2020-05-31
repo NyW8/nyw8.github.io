@@ -33,6 +33,26 @@ Opens the door to Unix/Linux command line and scripting languages using C and ba
 
 Software design concepts using Java, including unit testing, refactoring, design patterns, regexs, etc. Also has a large group project using Android Studio to create a mobile games app.
 
+### CSCB58: Computer Organization
+[Link to course][cscb58]
+
+Design and operation of computers. This includes boolean logic, memory structure, CPU, assembly languages, and instruction execution. Has regular labs and a group project to create a hardware based game.
+
+### CSCB63: Design and Analysis of Data Structures
+[Link to course][cscb63]
+
+Looks at the design and implemenation of various efficient data structures and abstract types. Dives into amortized complexity, hashing, red-black trees, disjoint sets, and dynamic tables.
+
+### CSCC24: Principles of Programming Languages
+[Link to course][cscc24]
+
+Studies functional programming (e.g. Haskell) to demonstrate definition and analysis in various languages.
+
+### CSCD84: Artificial Intelligence
+[Link to course][cscd84]
+
+Theories and algorithms of artificial intelligence through assignments in game playing, decision making with uncertainty, and image recognition. Considers Markov decision processes, neural nets, heuristics, and reinforcement learning.
+
 # Math classes:
 
 ### CSCA67: Discrete Mathematics
@@ -82,15 +102,21 @@ Mathematical models of probability and distribution. Adds a stats background to 
 
 Focuses on issues of rationality and how we know about the world around us. Includes conversations about the existance of a God, the knowability of reality, and studies texts through the history of philosophy.
 
+### EESA06: Introduction to Planet Earth
+[Link to course][eesa06]
+
+Explores the composition, structure, and origin of the Earth and its history from the last 4.5 billion years. Explains the current challenges (like global warming) that the world is facing and how human societies are impacting us now.
+
 ### LGGA60: Introductory Standard Chinese I
 [Link to course][lgga60]
 
 An introduction to learning Mandarin, using speech, listening, and reading and writing characters. Starts the path to being able to speak and translate Mandarin.
 
-### EESA06: Introduction to Planet Earth
-[Link to course][eesa06]
+### LGGA61: Introductory Standard Chinese II
+[Link to course][lgga61]
 
-Explores the composition, structure, and origin of the Earth and its history from the last 4.5 billion years. Explains the current challenges (like global warming) that the world is facing and how human societies are impacting us now.
+A further introduction to Mandarin, including speech, listening, reading, and writing characters. Builds on the previous introductory course, LGGA60.
+
 
 [csca08]: https://utsc.calendar.utoronto.ca/course/csca08h3
 [csca48]: https://utsc.calendar.utoronto.ca/course/csca48h3
@@ -98,6 +124,10 @@ Explores the composition, structure, and origin of the Earth and its history fro
 [cscb09]: https://utsc.calendar.utoronto.ca/course/cscb09h3
 [csc207]: https://fas.calendar.utoronto.ca/course/CSC207H1
 [csca67]: https://utsc.calendar.utoronto.ca/course/csca67h3
+[cscb58]: https://utsc.calendar.utoronto.ca/course/cscb58h3
+[cscb63]: https://utsc.calendar.utoronto.ca/course/cscb63h3
+[cscc24]: https://utsc.calendar.utoronto.ca/course/cscc24h3
+[cscd84]: https://utsc.calendar.utoronto.ca/course/cscd84h3
 [mata31]: https://utsc.calendar.utoronto.ca/course/mata31h3
 [mata37]: https://utsc.calendar.utoronto.ca/course/mata37h3
 [mata22]: https://utsc.calendar.utoronto.ca/course/mata22h3
@@ -107,4 +137,5 @@ Explores the composition, structure, and origin of the Earth and its history fro
 [stab52]: https://utsc.calendar.utoronto.ca/course/stab52h3
 [phla10]: https://utsc.calendar.utoronto.ca/course/phla10h3
 [lgga60]: https://utsc.calendar.utoronto.ca/course/lgga60h3
+[lgga61]: https://utsc.calendar.utoronto.ca/course/lgga61h3
 [eesa06]: https://utsc.calendar.utoronto.ca/course/eesa06h3
