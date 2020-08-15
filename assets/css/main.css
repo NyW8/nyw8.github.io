@@ -4789,7 +4789,8 @@ cite {
 .event .info .author_subtitle{
 	color: #676b88;
 	font-size: 1rem;
-	white-space: pre-line;
+  white-space: pre-line;
+  margin-top: 0;
 }
 
 .event .info .author_subtitle a{
