@@ -42,7 +42,7 @@ QUnit (for C# testing)
 
 Thank you to my team (in no order): Joseph, Judy, Sean, Gustav, Yesha, Cheng. All of you made every day interesting and tackled new challenges/problems without complaint.
 
-The Kobo site is [here][kobo-site] and a link to the live page I worked on will be posted once it is up in production (mid to late January).
+The Kobo site is [here][kobo-site] and a link to the live page I worked is [here][my-ui-kobo-site].
 
 [kobo-site]: https://www.kobo.com/
 [my-ui-kobo-site]: https://www.kobo.com/account/billing
