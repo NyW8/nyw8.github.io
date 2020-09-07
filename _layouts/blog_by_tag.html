@@ -12,27 +12,29 @@ layout: default
 </section> <!-- End Section Banner -->
 
 <main class="page-content" aria-label="Content">
-<section class="chapters cf">
-<div class="wrapper flex-row">
-	{% if site.tags[page.tag] %}
+  <section class="chapters cf">
+    <div class="wrapper flex-row">
+	    {% if site.tags[page.tag] %}
         {% for post in site.tags[page.tag] %}
-			<div class="chapter">
-				<a href="{{post.url | prepend: site.baseurl}}">
-				{% if post.img %}
-					<img class="postimg" style="width=30vw" src={{ "../assets/img/" | prepend: site.baseurl | append: post.img }} alt="{{post.title}}">
-				{% endif %}
-				</a>
-				<a href="{{post.url | prepend: site.baseurl}}">
-				<div class="chapter_inner">
-					<p class="chapter_number">{{post.date | date: '%Y, %b %d'}}</p>
-					<h3 class="chapter_title">{{post.title}}</h3>
-				</div>
-				</a>
-			</div>
-        {% endfor %}
-    {% else %}
-        <p>This page hasn't been set up yet, please come back later.</p>
-    {% endif %}
-  </div>
+	  		<div class="chapter">
+	  			<a href="{{post.url | prepend: site.baseurl}}">
+	  			{% if post.img %}
+	  				<img class="postimg" style="width=30vw" src={{ "../assets/img/" | prepend: site.baseurl | append: post.img }} alt="{{post.title}}">
+	  			{% endif %}
+	  			</a>
+	  			<a href="{{post.url | prepend: site.baseurl}}">
+          <div class="chapter_inner">
+            <div style="background: #00000099; width:100%">
+	  			  	<p class="chapter_number">{{post.date | date: '%Y, %b %d'}}</p>
+              <h3 class="chapter_title">{{post.title}}</h3>
+            </div>
+	  			</div>
+	  			</a>
+	  		</div>
+          {% endfor %}
+      {% else %}
+          <p>This page hasn't been set up yet, please come back later.</p>
+      {% endif %}
+    </div>
   </section>
-  </main>
+</main>
