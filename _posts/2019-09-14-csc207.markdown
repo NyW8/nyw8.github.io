@@ -2,7 +2,7 @@
 layout: post
 title: "CSC207 Notes"
 img: csc207-banner.jfif # Add image post (optional)
-date: 2018-09-01 12:54:00 +0300
+date: 2019-09-01 12:54:00 +0300
 description: CSC207 software engineering class notes
 tag: [coursework]
 ---

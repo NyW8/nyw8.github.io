@@ -2,7 +2,7 @@
 layout: post
 title: "All Classes and Descriptions"
 img: courses.jpg # Add image post (optional)
-date: 2019-12-31 12:54:00 +0300
+date: 2020-08-31 12:54:00 +0300
 description: A list of the coursework and classes Nyah has taken.
 tag: [coursework]
 ---
