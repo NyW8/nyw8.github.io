@@ -1,0 +1,21 @@
+---
+layout: page
+title: "About"
+img: bg_about.jpg
+date: 2000-01-01 12:00:00 +0300
+description: Nyah Way is a computer science student at UTSC.
+tag: [pages]
+category: pages
+---
+
+<div class="about">
+  <img class="author_image" src="{{site.baseurl}}/assets/img/about_photo1.jpg" alt="Image of Nyah Way">
+  <div class="author_info">
+    <h2 class="author_title">{{site.author-name}}</h2>
+    <p class="author_subtitle">
+    Nyah is in her 3rd year at the University of Toronto Scarborough. She enjoys working on new projects and learning new languages, frameworks, and ways to program. Her hobbies include photography, baking, and programming.
+    <br><br>
+    Currently, Nyah is looking for a internship/co-op in North America for the winter 2021 semester (January - April). She has previously secured a position at Rakuten Kobo over fall 2019, and has a position in place at Google for summer 2021.
+    </p>
+  </div>
+</div>

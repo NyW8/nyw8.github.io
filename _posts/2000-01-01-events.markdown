@@ -1,0 +1,44 @@
+---
+layout: page
+title: "Events"
+img: conference.jpg # Add image post (optional)
+date: 2000-01-01 12:00:00 +0300
+description: Events and conferences that Nyah Way has attended, and rewards that she has recieved.
+tag: [pages]
+category: pages
+---
+This is a list of conferences and events I have had the privilege of attending, and also of awards I have recieved.
+
+<div class="events">
+
+  ## 2020
+  <p class="no-padding">
+    Finalist in <a href="https://www.ibm.com/" target="_blank">IBM</a>'s Student Design competition<br>
+    <a href="https://zeroqode.com/zerocodeconf" target="_blank">Zero Code Conference</a>
+  </p>
+  <br>
+
+  ## 2019
+  <p class="no-padding">
+    University of Toronto Renewable Scholarship<br>
+    <a href="https://elevate.ca/" target="_blank">Elevate</a><br>
+    <a href="http://www.aisquaredforum.ca/" target="_blank">AI Squared Forum</a><br>
+    <a href="https://collisionconf.com/" target="_blank">Collision Conference</a><br>
+    <a href="https://www.facebook.com/hackthevalley/" target="_blank">Hack the Valley 3</a>
+  </p>
+  <br>
+
+  ## 2018
+  <p class="no-padding">
+    <a href="https://buildyourfuture.withgoogle.com/programs/computer-science-summer-institute/#!?detail-content-tabby_activeEl=overview" target="_blank">Google's Computer Science Summer Institute (CSSI)</a><br>
+    University of Toronto Scholar<br>
+    Loblaw Scholarship<br>
+    <a href="http://www.bayshorebroadcasting.ca/news_item.php?NewsID=101481" target="_blank">Owen Sound Volunteer of the Year</a>
+  </p>
+  <br>
+
+  ## 2017
+  <p class="no-padding">
+    Library Youth Expo Teen Representative
+  </p>
+</div>

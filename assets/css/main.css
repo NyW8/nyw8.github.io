@@ -4630,195 +4630,54 @@ cite {
   overflow: auto;
 }
 
-.about {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  min-height: 700px;
-  background-image: url(../img/alaska.jpg);
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
+
+
+
+
+/*------About page------*/
+@media only screen and (max-width: 600px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .about .author_image {
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+  }
 }
 
-.about .author {
-  -webkit-border-radius: 0.5rem;
-          border-radius: 0.5rem;
-  margin-bottom: 1rem;
+@media only screen and (min-width: 600px) {
+  .about {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .about .author_image {
+    max-width: 40%;
+    max-height: 400px;
+    object-fit: contain;
+  }
+
+  .about .author_info {
+    width: 50%;
+  }
 }
-
-.about .author .author_image {
-  float: none;
-  display: block;
-  margin: 0 auto 1.75rem;
-}
-
-.about .author .author_info {
-  padding: 0;
-  text-align: center;
-}
-
-.about .about_social {
-  -webkit-border-radius: 0.5rem;
-          border-radius: 0.5rem;
-  overflow: hidden;
-}
-
-.about .about_social .social_footer {
-  padding: 0;
-  margin: 0;
-  border: none;
-}
-
-.about .about_social .social_footer a {
-  font-size: 1rem;
-  color: #262626;
-  background-color: #ffffff;
-}
-
-.about .about_social .social_footer a:hover {
-  color: #c0334a;
-}
-
-
-
-
-
-
-
-
-
-
-
-
+/*-------end of about page--------*/
 
 /*------Events page------*/
-.event_box {
-  position: absolute;
-  -webkit-border-radius: 0.5rem;
-          border-radius: 0.5rem;
-  width: 600px;
-  max-width: 90%;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  overflow: auto;
-}
-
 .events {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  min-height: 800px;
-  background-image: url(../img/bg_about.jpg);
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  
-  animation-delay:0.8s;
-  animation-duration:0.7s;
-  animation-fill-mode: both;
-  animation-name: fadeInDown;
-}
-
-.events .event {
-  -webkit-border-radius: 0.5rem;
-          border-radius: 0.5rem;
-  margin-bottom: 1rem;
-}
-
-.events .event .author_image {
-  float: none;
-  display: block;
-  margin: 0 auto 1.75rem;
-}
-
-.events .event .info {
   padding: 0;
   text-align: center;
 }
 
-.events .about_social {
-  -webkit-border-radius: 0.5rem;
-          border-radius: 0.5rem;
-  overflow: hidden;
-}
-
-.events .about_social .social_footer {
+.events .no-padding {
   padding: 0;
   margin: 0;
-  border: none;
-}
-
-.events .about_social .social_footer a {
-  font-size: 1rem;
-  color: #262626;
-  background-color: #ffffff;
-}
-
-.events .about_social .social_footer a:hover {
-  color: #c0334a;
-}
-
-.event {
-  padding: 2rem 0.5rem;
-  margin-bottom: 1.5rem;
-  background-color: #ffffffc7;
-}
-
-.event .info {
-  padding-left: 8rem;
-}
-
-.event .info .author_title {
-  font-size: 1.5rem;
-  margin-bottom: 0;
-  color: #262626;
-}
-
-.event .author_social span {
-  display: inline-block;
-  color: #667085;
-  padding-right: 0.5rem;
-  margin: 0 0.5rem 0.5rem 0;
-  border-right: 1px solid #667085;
-  font-size: 0.8rem;
-  letter-spacing: 1px;
-}
-
-.event .info .author_subtitle{
-	color: #676b88;
-	font-size: 1rem;
-  white-space: pre-line;
-  margin-top: 0;
-}
-
-.event .info .author_subtitle a{
-	color: #676b88;
-}
-
-.event .author_social span:last-child {
-  border-right: none;
-}
-
-.event .info .author_title::before, .event .info .author_title::after {
-  content: " — ";
-}
-
-.event .author_social span a {
-  color: #667085;
-  text-decoration: none;
-}
-
-.event .author_social span a:hover {
-  opacity: .9;
 }
 /*-------end of events page--------*/
-
-
-
 
 
 
