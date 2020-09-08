@@ -3865,19 +3865,6 @@ body {
 
 
 /*------Resume page--------*/
-.resume .box {
-	background:white;
-	border-radius: 10px;
-	margin: 3vh 6vw 3vh 6vw;
-	padding: 15px 0;
-	animation-delay:0.9s;
-	animation-duration:0.8s;
-	animation-fill-mode: both;
-	animation-name: fadeInDown;
-}
-.resume .inner-box{
-	padding:1vh 2vw 5px 4vw;
-}
 .resume .date{
 	font-size: 0.8rem;
 	color: grey;
@@ -3885,7 +3872,7 @@ body {
 }
 .resume .section_header {
 	font-size: 1.5rem;
-	margin: 0;
+	margin: 20px 0 0;
 	color:#069;
 }
 .resume .title{
@@ -3900,16 +3887,13 @@ body {
 }
 .resume .resume_title {
 	font-size: 1.2rem;
-	margin:20px 0 10px 0;
+	margin:20px 0 0;
 }
 .resume .details {
 	font-size: 1.0rem;
 	margin: 0;
 }
 .resume {
-	background-color: #bf334a;
-	background-image: linear-gradient(90deg, #bf334a, #343c66);
-	padding: 0 0 3vh;
 	animation-delay:0.8s;
 	animation-duration:0.7s;
 	animation-fill-mode: both;
