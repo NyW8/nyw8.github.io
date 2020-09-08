@@ -4515,18 +4515,6 @@ cite {
   font-size: 1rem;
 }
 
-.recent_box .recent_list .recent_item_post_1 {
-  background-image: url(../images/canyon.jpg);
-}
-
-.recent_box .recent_list .recent_item_post_2 {
-  background-image: url(../images/malaysia.jpg);
-}
-
-.recent_box .recent_list .recent_item_post_3 {
-  background-image: url(../images/sweden.jpg);
-}
-
 #tags {
   background-color: #ffffff;
   padding: 2rem 1rem 4rem;
