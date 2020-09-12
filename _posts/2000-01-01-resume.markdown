@@ -45,7 +45,7 @@ category: pages
     Undergraduate Teaching Assistant at <a href="https://www.utsc.utoronto.ca/home/">University of Toronto Scarborough</a>
   </h5>
   <p class="date">
-    Toronto, Ontario 04/2019 - 05/2020
+    Toronto, Ontario 04/2019 - 12/2020
   </p>
 	<ul class="details">
 		<li>Checked assignments, proctored tests, and provided grades according to university standards.</li>
