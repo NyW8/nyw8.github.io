@@ -10,7 +10,7 @@ category: pages
 
 Hello D84-ers! This is a quick tutorial of how to set up your Windows machine to be able to run your assignments. If anything doesn't work, or something is confusing to you, please let me know so I can improve it for the next person!
 
-If you have already set up an Ubuntu WSL on your Windows machine, you can skip down to [Part 2](#part-2-setting-up-the-c-compiler). 
+If you have already set up an Ubuntu WSL on your Windows machine, you can skip down to [Part 2](#part-2-setting-up-the-compiler-and-packages). 
 
 Note that there are many possible ways to set up your environment, and this only covers one of them.
 
@@ -28,7 +28,7 @@ Note that for WSL, you must have a 64-bit OS. I have also seen issues where WSL 
    1. Open Windows Command Prompt (can type `cmd` from the search bar)
    2. In the command prompt, type in `bash` and hit enter, this should open up your Linux terminal in the same folder that command prompt was opened in, and should see something like `user@DESKTOP-JDLSD30:/mnt/c/whatever/folder/you/were/in$` as the new prompt.
 
-## Part 2: Setting up the C compiler
+## Part 2: Setting up the Compiler and Packages
 1. Open Windows Command Prompt and type in `bash` to enter Ubuntu
 2. Enter `sudo apt-get update`
 3. Enter `sudo apt-get install build-essential freeglut3-dev libgl1-mesa-dev libglu1-mesa-dev`
