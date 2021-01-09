@@ -33,13 +33,22 @@ Note that for WSL, you must have a 64-bit OS. I have also seen issues where WSL 
 2. Enter `sudo apt-get update`
 3. Enter `sudo apt install build-essential`
 4. Check that the required compilers have been installed by running:
-   1. `gcc --version`
-   2. `g++ --version`
+   1. `gcc --version` <br>Example output should look something like <br>`gcc (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0` <br>with lots more after it
+   2. `g++ --version` <br>Example output should look something like <br>`g++ (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0` <br>with lots more after it
 
 ## Part 3: Setting up OpenGL
 
-1. Download and install [Xming X Server](https://sourceforge.net/projects/xming/). You can set it up however you want as long as you install both Xming and XLaunch.
+1. Download and install <a href="https://sourceforge.net/projects/xming/" target="_blank">Xming X Server</a>. You can set it up however you want as long as you install both Xming and XLaunch.
 2. Open your `bash` terminal
-3. Enter `export DISPLAY=:0`
+3. Enter `export DISPLAY=:0` this will have to be run whenever you have opened a new `bash` terminal and are planning on running an assignment
+4. Note that you do not need to do anything else for Xming to set it up
+
+## Part 4: Test Your Setup!
+1. Download this <a href="https://utoronto-my.sharepoint.com/:u:/g/personal/n_way_mail_utoronto_ca/EXADc8jJQxVGtneawvmqjdQBw9OrIEyfy4Fy6YkO4GXRfQ?e=d3bu2A" target="_blank">script</a> and save it in your (nicely filed!) CSCD84 class folder 
+2. Open your class folder in the `bash` terminal
+3. (Don't forget to run `export DISPLAY=:0` if this is a newly opened `bash` terminal)
+4. Compile with `gcc d84_setup_test.c -lm -lglut -lGL -lGLU -o d84_setup_test`
+5. Run with `./d84_setup_test`
+6. If no window pops up, something went wrong. Make sure you set the `DISPLAY` value on this terminal and retrace the steps on this page.
 
 That's it! You're set up to run D84 assignments! Good luck!
