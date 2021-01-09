@@ -18,7 +18,7 @@ Note that there are many possible ways to set up your environment, and this only
 
 Note that for WSL, you must have a 64-bit OS. I have also seen issues where WSL could not be installed on certain laptops bought in China, so try the steps below but you may need to use some other method to set up your computer.
 1. From the search bar, search for and open "Turn Windows Features On or Off"
-2. At the bottom, make sure "Windows Subsystem for Linux" is checked off.
+2. At the bottom, make sure "Windows Subsystem for Linux" is checked.
 3. Click OK, it should begin downloading and may ask you to restart
 4. After restarting, open up the Windows Store and download (and open!) the "Ubuntu" app
    1. Note: Shouldn't matter which version of Ubuntu you download
@@ -31,7 +31,7 @@ Note that for WSL, you must have a 64-bit OS. I have also seen issues where WSL 
 ## Part 2: Setting up the C compiler
 1. Open Windows Command Prompt and type in `bash` to enter Ubuntu
 2. Enter `sudo apt-get update`
-3. Enter `sudo apt install build-essential`
+3. Enter `sudo apt-get install build-essential freeglut3-dev libgl1-mesa-dev libglu1-mesa-dev`
 4. Check that the required compilers have been installed by running:
    1. `gcc --version` <br>Example output should look something like <br>`gcc (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0` <br>with lots more after it
    2. `g++ --version` <br>Example output should look something like <br>`g++ (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0` <br>with lots more after it
