@@ -1,0 +1,49 @@
+---
+layout: post
+title: "Index Exchange Co-op"
+img: ix-banner.jpg
+date: 2021-04-18 12:55:00 +0300
+description: Nyah's co-op at Index Exchange as a software engineer.
+tag: [coursework]
+category: coursework
+---
+My experience at Index Exchange was the middle of my 3 co-ops. Below are some of my thoughts on both the position and the company.
+
+Having never worked in AdTech before, in the first few weeks I felt entirely out of my element at Index. The terminology was all new to me, as was working in a purely backend environment. How do you verify your changes? Which side is the buyer and which is the seller? What are bid floors and second price auctions? As my team was very willing to help me understand what was going on, I soon learned the answers to most of those questions.
+
+The position I took on at Index Exchange was that of a software engineer. My primary project within the time I was working with them was to create a metrics dashboard that displayed information and trends related to merge requests for the new software version that had just been released, called Arc3. 
+
+This project included creating a new database on a server cluster to hold the raw data, querying the gitlab API and evaluating that data to get the information needed, writing Python scripts aggregate and send that data to the database, connecting the whole thing to Redash for visualizations, and writing a bunch of SQL queries to show the required trends and metrics. The dashboard is shown below:
+
+
+<figure>
+<img src="./../assets/img/ix-dashboard.png" width=100% alt="The dashboard I worked on at Index Exchange">
+<figcaption>The metrics dashboard I created while on co-op at Index Exchange. Some data has been removed from this image.</figcaption>
+</figure>
+
+During my co-op, I also interacted with many other frameworks and tools including using Ansible to create playbooks and deploy services to different servers.
+
+Languages/Frameworks used:
+{% highlight linenos %}
+SQL
+Golang
+Perl
+Python
+Gitlab API
+{% endhighlight %}
+
+Tools used:
+{% highlight linenos %}
+Redash
+Docker
+Ansible
+Gitlab CI/CD
+Filebeat # part of the Elastic Search stack
+{% endhighlight %}
+
+Thank you to my team (in no order): Robert, James, Ivan, Kevin, Shawn. All of you were so patient with my questions and always were willing to help me along when I was confused about something.
+
+Index Exchange's site is [here][ix-site] and to learn more about the work they do, I recommend this video.
+<div style="text-align:center"><iframe width="560" height="315" src="https://www.youtube.com/embed/XEqh9t04wj0" title="Intro to Index Exchange" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+[ix-site]: https://www.indexexchange.com/
