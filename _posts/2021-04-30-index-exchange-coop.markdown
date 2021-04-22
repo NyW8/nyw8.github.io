@@ -29,7 +29,6 @@ SQL
 Golang
 Perl
 Python
-Gitlab API
 {% endhighlight %}
 
 Tools used:
@@ -37,11 +36,12 @@ Tools used:
 Redash
 Docker
 Ansible
+Gitlab API
 Gitlab CI/CD
-Filebeat # part of the Elastic Search stack
+Filebeat # part of the ElasticSearch stack
 {% endhighlight %}
 
-Thank you to my team (in no order): Robert, James, Ivan, Kevin, Shawn. All of you were so patient with my questions and always were willing to help me along when I was confused about something.
+Thank you to my team (in no order): Robert, James, Ivan, Kevin, Sean. All of you were so patient with my questions and always were willing to help me along when I was confused about something.
 
 Index Exchange's site is [here][ix-site] and to learn more about the work they do, I recommend this video.
 <div style="text-align:center"><iframe width="560" height="315" src="https://www.youtube.com/embed/XEqh9t04wj0" title="Intro to Index Exchange" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
