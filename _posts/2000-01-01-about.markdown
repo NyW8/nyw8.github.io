@@ -15,7 +15,7 @@ category: pages
     <p class="author_subtitle">
     Nyah is in her 4th year at the University of Toronto Scarborough. She enjoys working on new projects and learning new languages, frameworks, and ways to program. Her hobbies include photography, baking, and programming.
     <br><br>
-    Currently, Nyah is working as a Software Developer Co-op at Index Exchange for the winter 2021 semester (January - April). She has previously secured a position at Rakuten Kobo over fall 2019, and has a position in place at Google for summer 2021.
+    Currently, Nyah is working as a Software Reliability Engineer Co-op at Google for the summer 2021 semester (May - August). She has previously secured a position at Rakuten Kobo over fall 2019, and a position as a Software Developer Co-op at Index Exchange over winter 2021.
     </p>
   </div>
 </div>
