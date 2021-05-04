@@ -43,10 +43,50 @@ Design and operation of computers. This includes boolean logic, memory structure
 
 Looks at the design and implemenation of various efficient data structures and abstract types. Dives into amortized complexity, hashing, red-black trees, disjoint sets, and dynamic tables.
 
+### CSCC01: Introduction to Software Engineering
+[Link to course][cscc01]
+
+Carefully and completely studies the practices used in software engineering. This includes hands-on practice using Agile techniques, code reviews, and software architecture.
+
+### CSCC10: Human-Computer Interaction
+[Link to course][cscc10]
+
+Emphasizes methodologies of designing and prototyping user interfaces. Includes a group project for researching and evaluating the created app's UI over many stages of testing.
+
 ### CSCC24: Principles of Programming Languages
 [Link to course][cscc24]
 
 Studies functional programming (e.g. Haskell) to demonstrate definition and analysis in various languages.
+
+### CSC336: Numerical Methods
+[Link to course][csc336]
+
+Examines numerical methods in computing and algorithm implementation to solve problems with numerical solutions. Gives an understanding of small error causes in computation, non-linear equations, and accuracy in solutions. 
+
+### CSCC43: Introduction to Databases
+[Link to course][cscc43]
+
+Introduces relational algebra, normal forms, and database design. Teaches SQL concepts through abstraction before writing queries and highlights how integrity constraints can be efficiently used.
+
+### CSCC73: Algorithm Design and Analysis
+[Link to course][cscc73]
+
+An in-depth comprehensive dive into techniques for designing and analysing algorithms. Topics covered include divide-and-conquer, dynamic programming (DP), and linear programming.
+
+### CSCC69: Operating Systems
+[Link to course][cscc69]
+
+An extremely hands-on course that builds up the mini operating system, Pintos. Consists of 4 increasingly difficult projects that cover bootstrapping, multithreading, virtual memory, and filesystems respectively.
+
+### CSC410: Software Testing and Verification
+[Link to course][csc410]
+
+Jumps between coding languages and methods to prove algorithm correctness, formal specification, validation, and code analysis.
+
+### CSCD18: Computer Graphics
+[Link to course][cscd18]
+
+Details how computer-generated images and videos are created while focusing on ray-tracing, path-tracing, illumination, object manipulation, cameras, and lenses. Builds the ability to create a fully working 3D rendering engine.
 
 ### CSCD84: Artificial Intelligence
 [Link to course][cscd84]
@@ -107,6 +147,11 @@ Focuses on issues of rationality and how we know about the world around us. Incl
 
 Explores the composition, structure, and origin of the Earth and its history from the last 4.5 billion years. Explains the current challenges (like global warming) that the world is facing and how human societies are impacting us now.
 
+### LINA01: Introduction to Linguistics
+[Link to course][lina01]
+
+Introduces theories and methods in linguistics. Covers semantics, sentence structure, words, and meanings as well as smaller topics relating to other languages.
+
 ### LGGA60: Introductory Standard Chinese I
 [Link to course][lgga60]
 
@@ -127,6 +172,14 @@ A further introduction to Mandarin, including speech, listening, reading, and wr
 [cscb58]: https://utsc.calendar.utoronto.ca/course/cscb58h3
 [cscb63]: https://utsc.calendar.utoronto.ca/course/cscb63h3
 [cscc24]: https://utsc.calendar.utoronto.ca/course/cscc24h3
+[cscc01]: https://utsc.calendar.utoronto.ca/course/cscc01h3
+[cscc10]: https://utsc.calendar.utoronto.ca/course/cscc10h3
+[csc336]: https://fas.calendar.utoronto.ca/course/CSC336H1
+[cscc43]: https://utsc.calendar.utoronto.ca/course/cscc43h3
+[cscc73]: https://utsc.calendar.utoronto.ca/course/cscc73h3
+[cscc69]: https://utsc.calendar.utoronto.ca/course/cscc69h3
+[csc410]: https://fas.calendar.utoronto.ca/course/CSC410H1
+[cscd18]: https://utsc.calendar.utoronto.ca/course/cscd18h3
 [cscd84]: https://utsc.calendar.utoronto.ca/course/cscd84h3
 [mata31]: https://utsc.calendar.utoronto.ca/course/mata31h3
 [mata37]: https://utsc.calendar.utoronto.ca/course/mata37h3
@@ -136,6 +189,7 @@ A further introduction to Mandarin, including speech, listening, reading, and wr
 [staa57]: https://utsc.calendar.utoronto.ca/course/staa52h3
 [stab52]: https://utsc.calendar.utoronto.ca/course/stab52h3
 [phla10]: https://utsc.calendar.utoronto.ca/course/phla10h3
+[lina01]: https://utsc.calendar.utoronto.ca/course/lina01h3
 [lgga60]: https://utsc.calendar.utoronto.ca/course/lgga60h3
 [lgga61]: https://utsc.calendar.utoronto.ca/course/lgga61h3
 [eesa06]: https://utsc.calendar.utoronto.ca/course/eesa06h3
