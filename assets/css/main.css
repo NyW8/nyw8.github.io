@@ -4665,17 +4665,11 @@ cite {
   background-position: center;
   background-repeat: no-repeat;
   overflow: auto;
+  display: flex;
 }
 
 .container_contact {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  width: 960px;
-  max-width: 100%;
+  width: 100%
 }
 
 .container_contact .form_title {
@@ -4969,4 +4963,110 @@ cite {
     padding: 0.8rem;
     font-size: 1.2rem;
   }
+}
+
+.terminal {
+  display: flex;
+  flex-direction: row;
+}
+
+.terminal .half {
+  width: 50%;
+}
+
+.terminal #preview_half {
+  display: none;
+  overflow: auto;
+  color: white;
+  padding: 10px;
+}
+
+.terminal_pg .terminal {
+  background: black;
+  font: courier;
+  padding: 10px;
+  height: 80vh;
+  overflow: none;
+}
+
+.terminal_pg .terminal .terminal_half {
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-right: 25pt;
+  position: relative;
+}
+
+.terminal_pg .line {
+  display: table;
+  width: 100%;
+}
+.terminal_pg .terminal span{
+  display:table-cell; 
+  width:1px;
+}
+.terminal_pg .terminal input{
+  display:table-cell; 
+  width:100%;
+  border: none;
+  background: black;
+  color: white;
+  outline: none;
+}
+
+#loader-parent {
+  display: flex;
+  place-content: center;
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.terminal_half .info {
+  height: 25pt;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.terminal_half #info-icon {
+  height: 25pt;
+  cursor: pointer;
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+
+#overlay #overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  background: #424242;
+  border-radius: 30px;
+  padding: 20px;
 }

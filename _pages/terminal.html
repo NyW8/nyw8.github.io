@@ -1,0 +1,30 @@
+---
+layout: terminal_pg
+title: Terminal
+permalink: /terminal
+---
+<div class="terminal_half half" style="color: white;">
+  <div id="history"></div>
+  <div class="line">
+    <span id="path">/&nbsp;>&nbsp;</span>
+    <input type="text" id="input">
+    </line>
+  </div>
+  <div class="info">
+    <img id="info-icon" src={{ "/assets/img/info_icon.png" | prepend: site.baseurl }} alt="How to use the terminal">
+  </div>
+</div>
+<div class="half" id="preview_half">
+  TODO: remove!
+</div>
+<div id="overlay">
+  <div id="overlay-text">
+    Commands accepted:
+    <ul>
+      <li>ls - views current directory files</li>
+      <li>cd &lt;directory&gt; - change directories</li>
+      <li>cat &lt;file/link&gt; - view a file or link</li>
+    </ul>
+    Click anywhere to exit.
+  </div>
+</div>
