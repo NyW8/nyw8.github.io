@@ -3517,6 +3517,7 @@ template {
 
 .highlight {
   background-color: #faf9f9;
+  color: black;
   -webkit-border-radius: 3px;
           border-radius: 3px;
   margin: 0;
@@ -4976,21 +4977,23 @@ cite {
 
 .terminal #preview_half {
   display: none;
-  overflow: auto;
   color: white;
   padding: 10px;
+  overflow-y: auto;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .terminal_pg .terminal {
   background: black;
-  font-family: courier;
-  font-size: 15px;
   padding: 10px;
-  height: 80vh;
+  height: 100vh;
   overflow: none;
 }
 
 .terminal_pg .terminal .terminal_half {
+  font-family: courier;
+  font-size: 15px;
   overflow-x: hidden;
   overflow-y: auto;
   padding-right: 25pt;

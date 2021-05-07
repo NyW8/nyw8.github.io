@@ -17,6 +17,7 @@ $(function() {
 
   var writeHistory = function(toWrite) {
     $('#history').append(toWrite + '<br/>');
+    $('.terminal_half').scrollTop($('.terminal_half')[0].scrollHeight);
   };
 
   var clearInput = function() {
@@ -91,7 +92,6 @@ $(function() {
       } else {
         writeHistory(cmd + ": Command not recognized");
       }
-      $('.terminal_half').scrollTop($('.terminal_half')[0].scrollHeight);
     }
   });
 
