@@ -5,6 +5,7 @@ $(function() {
 
   var currentDir = null;
   var loaderHTML = "<div id=\"loader-parent\"><div class=\"loader\"></div></div>";
+  var baseUrl = "https://nyw8.github.io"
 
   $('#overlay').on('click', function() {
     setOverlay("none");
@@ -114,19 +115,40 @@ $(function() {
       } 
     }
   }
+
+  var getSubFolderEntries = function (parentDir, parentUrl) {
+    /* Get projects and add them to the projects folder */
+    $.ajax({
+      url: parentUrl,
+      type:'GET',
+      success: function(data) {
+        var sections = $(data).find(".chapter");
+        for (var i = 0; i < sections.length; i++) {
+          var currentSection = sections[i];
+          var name = $(currentSection).find(".chapter_title")[0].innerHTML.toLowerCase().replaceAll(" ", "_");
+          var url = baseUrl + $(currentSection).find("a").attr("href");
+          var projectFile = new FileEntry(name, url, "inner_entry_content");
+          parentDir.addChild(projectFile);
+        }
+      }
+    });
+  }
   
   var setupFileSystem = function () {
     // want to show folder for projects, coursework, files for each: about, resume, events, contact, "soft links" for gitlab, linkedin
     var root = new Dir("", null);
-    var rootChildren = [new Dir("projects", root), new Dir("coursework", root),
-      new FileEntry("about", "https://nyw8.github.io/about/", "about"), new FileEntry("resume", "https://nyw8.github.io/resume/", "resume"),
-      new FileEntry("events", "https://nyw8.github.io/events/", "events"), new FileEntry("contact", "https://nyw8.github.io/contact/", "container_contact"),
+    var projectsFolder = new Dir("projects", root);
+    var courseworkFolder = new Dir("coursework", root);
+    getSubFolderEntries(projectsFolder, "https://nyw8.github.io/projects");
+    getSubFolderEntries(courseworkFolder, "https://nyw8.github.io/coursework");
+
+    var rootChildren = [projectsFolder, courseworkFolder,
+      new FileEntry("about", baseUrl + "/about/", "about"), new FileEntry("resume", baseUrl + "/resume/", "resume"),
+      new FileEntry("events", baseUrl + "/events/", "events"), new FileEntry("contact", baseUrl + "/contact/", "container_contact"),
       new Link("github", "https://github.com/NyW8"), new Link("linkedin", "https://www.linkedin.com/in/nyah-way/")];
     for (var i = 0; i < rootChildren.length; i++) {
       root.addChild(rootChildren[i]);
     }
-    var projectChildren = []
-
     currentDir = root;
     $('#path').html(currentDir.pwd()+'&nbsp;>&nbsp;');
   }
@@ -202,7 +224,7 @@ $(function() {
           elem.innerHTML = htmlString;
         }
      });
-    } 
+    }
   }
 
   class Link {
