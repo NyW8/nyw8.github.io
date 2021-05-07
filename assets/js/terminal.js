@@ -101,7 +101,7 @@ $(function() {
           result.getContent(elem);
           preview_half.show();
         }
-      } else if (arguments[0] == "clear") {
+      } else if (cmd == "clear") {
         $('#history').empty();
       } else {
         writeHistory(cmd + ": Command not recognized");
