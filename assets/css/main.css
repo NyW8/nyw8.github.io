@@ -5008,7 +5008,7 @@ cite {
   display:table-cell; 
   width:1px;
 }
-.terminal_pg .terminal input{
+.terminal_pg .terminal_half input{
   display:table-cell; 
   width:100%;
   border: none;

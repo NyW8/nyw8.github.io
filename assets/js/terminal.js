@@ -1,11 +1,12 @@
 $(function() {
-	$('.terminal').on('click', function() {
+	$('.terminal_half').on('click', function() {
   	$('#input').focus();
   });
 
   var currentDir = null;
   var loaderHTML = "<div id=\"loader-parent\"><div class=\"loader\"></div></div>";
   var baseUrl = "https://nyw8.github.io"
+  var lastHistory = "";
 
   $('#overlay').on('click', function() {
     setOverlay("none");
@@ -28,10 +29,23 @@ $(function() {
     $('#overlay').css("display", displayValue);
   };
 
+  var setInputToVal = function (value) {
+    var fieldInput = $('#input');
+    var temp = fieldInput.val();
+    console.log("got keycode", value);
+
+    // set input val to lastHistory and save old value
+    fieldInput.focus().val(value);
+    lastHistory = temp;
+  };
+
   $('#input').on('keydown',function search(e) {
     setOverlay("none");
-		if(e.keyCode == 13) {
+    if (e.keyCode == 38 || e.keyCode == 40) { // Up or down keys
+      setInputToVal(lastHistory);
+    } else if(e.keyCode == 13) { // Enter key
       var inputString = $(this).val();
+      lastHistory = inputString;
       clearInput();
 
       var arguments = inputString.split(" ");
