@@ -31,6 +31,8 @@ $(function() {
     setOverlay("none");
 		if(e.keyCode == 13) {
       var inputString = $(this).val();
+      clearInput();
+
       var arguments = inputString.split(" ");
       writeHistory(currentDir.pwd() + '&nbsp;>&nbsp;' + inputString);
       var cmd = arguments.shift();
@@ -40,16 +42,21 @@ $(function() {
       if(cmd === 'cd') {
         var path = arguments[0];
         var errMsg = "cd: " + path + ": No such directory";
+        if (arguments.length < 1) {
+          writeHistory("cd: Please specify a directory to move to");
+          return;
+        }
         var result = currentDir.cd(path);
         
         if (result == null) {
           writeHistory(errMsg);
-          clearInput();
           return;
         }
 
         currentDir = result;
         $('#path').html(currentDir.pwd()+'&nbsp;>&nbsp;');
+      } else if (cmd === "pwd") {
+        writeHistory(currentDir.pwd());
       } else if (cmd === "ls") {
         var path = arguments.length > 0 ? arguments[0] : ".";
         var errMsg = "ls: " + path + ": No such directory";
@@ -57,7 +64,6 @@ $(function() {
 
         if (result == null) { 
           writeHistory(errMsg);
-          clearInput();
           return;
         }
 
@@ -70,7 +76,6 @@ $(function() {
 
         if (result == null || result.type == "dir") {
           writeHistory(errMsg);
-          clearInput();
           return;
         }
 
@@ -87,8 +92,6 @@ $(function() {
         writeHistory(cmd + ": Command not recognized");
       }
       $('.terminal_half').scrollTop($('.terminal_half')[0].scrollHeight);
-      
-      clearInput();
     }
   });
 
