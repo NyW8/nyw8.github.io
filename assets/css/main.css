@@ -4984,8 +4984,19 @@ cite {
   overflow-x: hidden;
 }
 
+.terminal #preview_half p {
+  color: #cccccc;
+}
+
+.terminal #preview_half a {
+  color: #c0bafb;
+}
+
 .terminal_pg .terminal {
-  background: black;
+  -webkit-animation: bgcolor 60s infinite;
+  animation: bgcolor 30s infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
   padding: 10px;
   height: 100vh;
   overflow: none;
@@ -5014,7 +5025,7 @@ cite {
   border: none;
   font-family: courier;
   font-size: 15px;
-  background: black;
+  background: rgba(0, 0, 0, 0);
   color: white;
   outline: none;
 }
@@ -5075,4 +5086,26 @@ cite {
   background: #424242;
   border-radius: 30px;
   padding: 20px;
+}
+
+@keyframes bgcolor {
+  0% {
+      background-color: #000000
+  }
+
+  30% {
+      background-color: #432045 
+  }
+
+  60% {
+      background-color: #5D2B3C    
+  }
+
+  90% {
+      background-color: #300C33 
+  }
+
+  100% {
+      background-color: #332448
+  }
 }
