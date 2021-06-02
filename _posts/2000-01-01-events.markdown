@@ -11,6 +11,12 @@ This is a list of conferences and events I have had the privilege of attending, 
 
 <div class="events">
 
+  ## 2021
+  <p class="no-padding">
+    <a href="https://events.google.com/io?lng=en" target="_blank">Google I/O</a>
+  </p>
+  <br>
+
   ## 2020
   <p class="no-padding">
     Finalist in <a href="https://www.ibm.com/" target="_blank">IBM</a>'s Student Design competition<br>
