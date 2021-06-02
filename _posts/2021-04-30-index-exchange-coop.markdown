@@ -2,7 +2,7 @@
 layout: post
 title: "Index Exchange Co-op"
 img: ix-banner.jpg
-date: 2021-04-18 12:55:00 +0300
+date: 2021-04-30 12:55:00 +0300
 description: Nyah's co-op at Index Exchange as a software engineer.
 tag: [coursework]
 category: coursework
@@ -45,6 +45,7 @@ Gitlab CI/CD
 Filebeat # part of the ElasticSearch stack
 Grafana
 Kafka
+Vim
 {% endhighlight %}
 
 Thank you to my team (in no order): Robert, James, Ivan, Kevin, Sean. All of you were so patient with my questions and always were willing to help me along when I was confused about something.
