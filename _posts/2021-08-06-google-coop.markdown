@@ -2,7 +2,7 @@
 layout: post
 title: "Google Co-op"
 img: google-banner.jpg
-date: 2021-07-27 12:55:00 +0300
+date: 2021-08-06 12:55:00 +0300
 description: Nyah's internship at Google as a software (site reliability) engineer or SRE.
 tag: [coursework]
 category: coursework

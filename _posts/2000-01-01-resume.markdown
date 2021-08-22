@@ -24,35 +24,45 @@ category: pages
   <p class="date">
     Toronto, Ontario 2018 - 2022
   </p>
-	<ul class="details">
-		<li>Computer Science Specialist Co-op Program, 4th year</li>
-		<li>University of Toronto Scholar</li>
-		<li>CGPA: 3.95 (out of 4)</li>
-	</ul>
-	<h3 class="section_header">EXPERIENCE</h3>
-	<h5 class="resume_title">
+  <ul class="details">
+	<li>Computer Science Specialist Co-op Program, 4th year</li>
+	<li>University of Toronto Scholar</li>
+	<li>CGPA: 3.96 (out of 4)</li>
+  </ul>
+  <h3 class="section_header">EXPERIENCE</h3>
+  <h5 class="resume_title">
+    Software (Site Reliability) Engineer Intern at <a href="https://about.google/">Google</a>
+  </h5>
+  <p class="date">
+    Remote (Sunnyvale, California) 05/2021 - 08/2021
+  </p>
+  <ul class="details">
+  <li>Worked on an eventually consistent key-value store to improved runtime efficiency for high-utilization clients.</li>
+	<li>Developed dashboards to improve observability for better reliability debugging and bandwidth load, and ensure better client visibility within the system.</li>
+  </ul>
+  <h5 class="resume_title">
     Software Engineer (Co-op) at <a href="https://www.indexexchange.com/">Index Exchange</a>
   </h5>
   <p class="date">
     Remote (Toronto, Ontario) 01/2021 - 04/2021
   </p>
-	<ul class="details">
-		<li>Recorded metrics data in production databases to highlight inefficiencies in development, review, and deployment.</li>
-		<li>Developed dashboard using SQL to display rolling averages and trends based on time metrics.</li>
-		<li>Met with stakeholders on weekly basis to provide detailed project report and milestone updates.</li>
-	</ul>
-	<h5 class="resume_title">
+  <ul class="details">
+	<li>Recorded metrics data in production databases to highlight inefficiencies in development, review, and deployment.</li>
+	<li>Developed dashboard using SQL to display rolling averages and trends based on time metrics.</li>
+	<li>Met with stakeholders on weekly basis to provide detailed project report and milestone updates.</li>
+  </ul>
+  <h5 class="resume_title">
     Software Full Stack and QA Developer (Co-op) at <a href="https://www.kobo.com/">Rakuten Kobo</a>
   </h5>
   <p class="date">
     Toronto, Ontario 09/2019 - 12/2019
   </p>
-	<ul class="details">
-		<li>Assisted in analyzing requirements to design, develop and implement a payment processor switch saving over a hundred thousand dollars annually.</li>
-		<li>Designed, implemented and monitored web pages using and new features for continuous improvement on corporate e-commerce website.</li>
-		<li>Ran performance checks on .NET framework projects to ensure users encounter 100% problem-free experiences.</li>
-	</ul>
-	<h5 class="resume_title">
+  <ul class="details">
+	<li>Assisted in analyzing requirements to design, develop and implement a payment processor switch saving over a hundred thousand dollars annually.</li>
+	<li>Designed, implemented and monitored web pages using and new features for continuous improvement on corporate e-commerce website.</li>
+	<li>Ran performance checks on .NET framework projects to ensure users encounter 100% problem-free experiences.</li>
+  </ul>
+  <h5 class="resume_title">
     Undergraduate Teaching Assistant at <a href="https://www.utsc.utoronto.ca/home/">University of Toronto Scarborough</a>
   </h5>
   <p class="date">
