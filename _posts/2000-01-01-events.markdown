@@ -3,11 +3,11 @@ layout: page
 title: "Events"
 img: conference.jpg # Add image post (optional)
 date: 2000-01-01 12:00:00 +0300
-description: Events and conferences that Nyah Way has attended, and rewards that she has recieved.
+description: Events and conferences that Nyah Way has attended, and rewards that she has received.
 tag: [pages]
 category: pages
 ---
-This is a list of conferences and events I have had the privilege of attending, and also of awards I have recieved.
+This is a list of conferences and events I have had the privilege of attending, and also of awards I have received.
 
 <div class="events">
 
