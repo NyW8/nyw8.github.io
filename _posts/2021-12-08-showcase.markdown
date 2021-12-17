@@ -11,8 +11,7 @@ category: coursework
 As part of an entrepreneurship course, we researched, gathered feedback, and created an app called **Showcase** to help actors and others in the film industry connect and advance their careers.
 
 Showcase's final demo:
-
-<iframe src="https://drive.google.com/file/d/1HtghQ2-dSubCf8wYGF21X2PGnAontXrk/preview" <iframe style="width:100%;height:500px" allow="autoplay"></iframe>
+<iframe src="https://www.youtube.com/embed/94w-ewBquig" <iframe style="width:100%;height:500px" allow="autoplay"></iframe>
 
 As part of this course, we created a business model canvas centered around the app, and interviewed professionals who would use our app to connect with others. This led us to create the prototype and focus on the features and aspects that we did. Namely:
  - Creating and supporting connections between actors
