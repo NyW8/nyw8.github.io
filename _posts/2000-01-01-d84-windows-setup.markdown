@@ -44,7 +44,7 @@ Note that for WSL, you must have a 64-bit OS. I have also seen issues where WSL 
 4. Note that you do not need to do anything else for Xming to set it up
 
 ## Part 4: Test Your Setup!
-1. Download this <a href="https://utoronto-my.sharepoint.com/:u:/g/personal/n_way_mail_utoronto_ca/EXADc8jJQxVGtneawvmqjdQBw9OrIEyfy4Fy6YkO4GXRfQ?e=d3bu2A" target="_blank">script</a> and save it in your (nicely filed!) CSCD84 class folder 
+1. Download this <a href="https://utoronto-my.sharepoint.com/:u:/g/personal/n_way_mail_utoronto_ca/EXADc8jJQxVGtneawvmqjdQBqSByDaxys6zz3K8d1zAzCw?e=PeLv1B" target="_blank">script</a> and save it in your (nicely filed!) CSCD84 class folder 
 2. Open your class folder in the `bash` terminal
 3. (Don't forget to run `export DISPLAY=:0` if this is a newly opened `bash` terminal)
 4. Compile with `gcc d84_setup_test.c -lm -lglut -lGL -lGLU -o d84_setup_test`
