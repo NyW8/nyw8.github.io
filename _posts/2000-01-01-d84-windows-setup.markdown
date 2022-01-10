@@ -49,6 +49,19 @@ Note that for WSL, you must have a 64-bit OS. I have also seen issues where WSL 
 3. (Don't forget to run `export DISPLAY=:0` if this is a newly opened `bash` terminal)
 4. Compile with `gcc d84_setup_test.c -lm -lglut -lGL -lGLU -o d84_setup_test`
 5. Run with `./d84_setup_test`
-6. If no window pops up, something went wrong. Make sure you set the `DISPLAY` value on this terminal and retrace the steps on this page.
+6. If no window pops up, something went wrong. Make sure you set the `DISPLAY` value on this terminal and retrace the steps on this page. Additionally, see Part 5.
 
 That's it! You're set up to run D84 assignments! Good luck!
+
+
+## Part 5: Issues...
+If you get the error `Failed to open display ':0'` or `Failed to open display ''`, a couple more steps may be required:
+
+1. In the bash terminal, enter `sudo nano ~/.bashrc`
+2. In the file that appears, at the very bottom, change `export DISPLAY=0` to `export DISPLAY=$(grep -m 1 nameserver /etc/resolv.conf | awk '{print $2}'):0.0`
+3. At the bottom right of the windows taskbar, close Xming by clicking on the up (^) arrow, right clicking on the X icon, and exiting it.
+4. Search Windows for XLaunch, continue regular setup, but check off "No Access Control" on the 3rd page.
+5. Rerun the test script in a new bash terminal (WITHOUT setting DISPLAY in the terminal again)
+
+It should hopefully work now! And if you run these steps, you won't need to run DISPLAY=:0 each time you open a new shell.
+
