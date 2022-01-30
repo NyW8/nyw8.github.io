@@ -58,10 +58,11 @@ That's it! You're set up to run D84 assignments! Good luck!
 If you get the error `Failed to open display ':0'` or `Failed to open display ''`, a couple more steps may be required:
 
 1. In the bash terminal, enter `sudo nano ~/.bashrc`
-2. In the file that appears, at the very bottom, change `export DISPLAY=0` to `export DISPLAY=$(grep -m 1 nameserver /etc/resolv.conf | awk '{print $2}'):0.0`
+2. In the file that appears, at the very bottom, either add or change `export DISPLAY=0` to `export DISPLAY=$(grep -m 1 nameserver /etc/resolv.conf | awk '{print $2}'):0.0`
 3. At the bottom right of the windows taskbar, close Xming by clicking on the up (^) arrow, right clicking on the X icon, and exiting it.
 4. Search Windows for XLaunch, continue regular setup, but check off "No Access Control" on the 3rd page.
-5. Rerun the test script in a new bash terminal (WITHOUT setting DISPLAY in the terminal again)
+5. Rerun the test script in a *new* bash terminal (WITHOUT setting DISPLAY in the terminal again)
+6. If you're still getting errors, **carefully** repeat steps 3-5.
 
 It should hopefully work now! And if you run these steps, you won't need to run DISPLAY=:0 each time you open a new shell.
 
