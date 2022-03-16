@@ -11,11 +11,18 @@ This is a list of conferences and events I have had the privilege of attending, 
 
 <div class="events">
 
+  ## 2022
+  <p class="no-padding">
+    <a href="hhttps://utsc.utoronto.ca/admissions/" target="_blank">Explore UTSC Co-op Panelist</a>
+  </p>
+  <br>
+
   ## 2021
   <p class="no-padding">
     <a href="https://events.google.com/io?lng=en" target="_blank">Google I/O</a><br>
     <a href="https://www.instagram.com/stories/highlights/17915647744745015/" target="_blank">UTSC Arts & Science Co-op Instagram Feature</a><br>
     <a href="https://github.com/csecutsc/csec_files/blob/0eec1f216571e339c525c22b748e40c6893b4840/2021/World%20of%20Work%202021.pdf" target="_blank">CSEC World of Work Panelist</a>
+    <a href="https://www.utsc.utoronto.ca/artscicoop/arts-science-home" target="_blank">Student Stories Panelist (UTSC Co-op)</a><br>
   </p>
   <br>
 
