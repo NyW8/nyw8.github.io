@@ -13,7 +13,9 @@ This is a list of conferences and events I have had the privilege of attending, 
 
   ## 2022
   <p class="no-padding">
-    <a href="hhttps://utsc.utoronto.ca/admissions/" target="_blank">Explore UTSC Co-op Panelist</a>
+    <a href="hhttps://utsc.utoronto.ca/admissions/" target="_blank">Explore UTSC Co-op Panelist</a><br>
+    <a href="https://www.utsc.utoronto.ca/registrar/eligibility">High Distinction Graduate</a><br>
+    Tom Hull Scholarship In Computer Science<br>
   </p>
   <br>
 
@@ -21,7 +23,8 @@ This is a list of conferences and events I have had the privilege of attending, 
   <p class="no-padding">
     <a href="https://events.google.com/io?lng=en" target="_blank">Google I/O</a><br>
     <a href="https://www.instagram.com/stories/highlights/17915647744745015/" target="_blank">UTSC Arts & Science Co-op Instagram Feature</a><br>
-    <a href="https://github.com/csecutsc/csec_files/blob/0eec1f216571e339c525c22b748e40c6893b4840/2021/World%20of%20Work%202021.pdf" target="_blank">CSEC World of Work Panelist</a>
+    <a href="https://github.com/csecutsc/csec_files/blob/0eec1f216571e339c525c22b748e40c6893b4840/2021/World%20of%20Work%202021.pdf" target="_blank">CSEC World of Work Panelist</a><br>
+    University of Toronto Renewable Scholarship<br>
     <a href="https://www.utsc.utoronto.ca/artscicoop/arts-science-home" target="_blank">Student Stories Panelist (UTSC Co-op)</a><br>
   </p>
   <br>
@@ -29,7 +32,8 @@ This is a list of conferences and events I have had the privilege of attending, 
   ## 2020
   <p class="no-padding">
     Finalist in <a href="https://www.ibm.com/" target="_blank">IBM</a>'s Student Design competition<br>
-    <a href="https://zeroqode.com/zerocodeconf" target="_blank">Zero Code Conference</a>
+    <a href="https://zeroqode.com/zerocodeconf" target="_blank">Zero Code Conference</a><br>
+    University of Toronto Renewable Scholarship
   </p>
   <br>
 
