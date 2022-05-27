@@ -16,8 +16,8 @@ I started as a quality assurance co-op and gradually moved towards doing full-st
 The primary project I worked on was a payment processor switch which included recreating one of the pages from an older side of Kobo's website:
 
 
-<figure>
-<img src="./../assets/img/kobo-page.png" width=100% alt="The page I worked on at Kobo">
+<figure style="text-align:center; margin: 0">
+<div style="background-image: url(https://nyw8.github.io/assets/img/kobo-page.png); background-repeat: no-repeat; background-size: contain; min-height: 400px; min-width: 300px; width: 100%; background-position: center center;" ></div>
 <figcaption>Above is the page I worked on while at Kobo, note that this page is not finished.</figcaption>
 </figure>
 

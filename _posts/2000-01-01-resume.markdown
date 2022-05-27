@@ -12,11 +12,12 @@ category: pages
 	<h3 class="section_header">SUMMARY</h3>
 	<br>
 	<h5 class="details">
-	<a href="{{ site.baseurl }}/about/">Nyah Way</a> is a versatile female developer versed in object oriented and systems programming, including Android development, server-side and web development, and abstract data types. Self-directed and unafraid of new challenges.
-	<br>
-	<a href="{{ site.baseurl }}/contact/" class="details">
-	  Click here to contact me using my contact form.
-	</a>
+	  <a href="{{ site.baseurl }}/about/">Nyah Way</a> is a   versatile female developer versed in object oriented and  systems programming, including Android development,  server-side and web development, and abstract data types.  Self-directed and unafraid of new challenges.
+	  <br>
+	  <a href="{{ site.baseurl }}/contact/" class="details">
+	    Click here to contact me using my contact form.
+	  </a>
+  </h5>
 	<h3 class="section_header">EDUCATION</h3>
 	<h5 class="resume_title">
     Honours Bachelor of Science - University of Toronto

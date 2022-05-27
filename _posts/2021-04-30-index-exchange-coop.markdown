@@ -14,10 +14,13 @@ Having never worked in AdTech before, in the first few weeks I felt entirely out
 The position I took on at Index Exchange was that of a software engineer. My primary project within the time I was working with them was to create a metrics dashboard that displayed information and trends related to merge requests for the new software version that had just been released, called Arc3. 
 
 This project included creating a new database on a server cluster to hold the raw data, querying the gitlab API and evaluating that data to get the information needed, writing Python scripts aggregate and send that data to the database, connecting the whole thing to Redash for visualizations, and writing a bunch of SQL queries to show the required trends and metrics. The dashboard is shown below:
+![The dashboard I worked on at Index Exchange (part 1)](https://nyw8.github.io/assets/img/ix-dashboard-1.png =100x)
 
 <figure style="text-align:center">
-<img src="./../assets/img/ix-dashboard-1.png" width=45% alt="The dashboard I worked on at Index Exchange (part 1)">
-<img src="./../assets/img/ix-dashboard-2.png" width=45% alt="The dashboard I worked on at Index Exchange (part 2)">
+<div style="display: flex; flex-direction: row; flex-wrap:wrap; width: 100%; justify-content: center">
+<div style="background-image: url(https://nyw8.github.io/assets/img/ix-dashboard-1.png); background-repeat: no-repeat; background-size: contain; min-height: 300px; min-width: 200px; width: 45%" ></div>
+<div style="background-image: url(https://nyw8.github.io/assets/img/ix-dashboard-2.png); background-repeat: no-repeat; background-size: contain; min-height: 300px; min-width: 200px; width: 45%" ></div>
+</div>
 <figcaption>The metrics dashboard I created while on co-op at Index Exchange.</figcaption>
 </figure>
 
@@ -51,6 +54,6 @@ Vim
 Thank you to my team (in no order): Robert, James, Ivan, Kevin, Sean. All of you were so patient with my questions and always were willing to help me along when I was confused about something.
 
 Index Exchange's site is [here][ix-site] and to learn more about the work they do, I recommend this video.
-<div style="text-align:center"><iframe width="100%" height="300px" src="https://www.youtube.com/embed/XEqh9t04wj0" title="Intro to Index Exchange" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div style="text-align:center"><iframe width="100%" height="300px" src="https://www.youtube.com/embed/XEqh9t04wj0?rel=0" title="Intro to Index Exchange" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 [ix-site]: https://www.indexexchange.com/

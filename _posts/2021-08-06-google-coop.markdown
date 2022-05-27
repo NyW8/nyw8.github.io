@@ -49,7 +49,7 @@ Used4<br>
 A huge thank you to my team and especially my host and co-host (you know who you are), as well as to my mentor who helped me throughout my internship. It was a great experience.
 
 The Google site is of course [here][google-site], and for a brief history of search, see the video below:
-<div style="text-align:center"><iframe width="100%" height="300px" src="https://www.youtube.com/embed/2EUyn5ws8lA" title="The Evolution of Google Search" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div style="text-align:center"><iframe width="100%" height="300px" src="https://www.youtube.com/embed/2EUyn5ws8lA?rel=0" title="The Evolution of Google Search" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 [google-site]: https://www.google.com/
 [sre-book]: https://sre.google/sre-book/table-of-contents/

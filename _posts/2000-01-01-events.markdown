@@ -10,8 +10,7 @@ category: pages
 This is a list of conferences and events I have had the privilege of attending, and also of awards I have received.
 
 <div class="events">
-
-  ## 2022
+  <h2>2022</h2>
   <p class="no-padding">
     <a href="https://utsc.utoronto.ca/admissions/" target="_blank">Explore UTSC Co-op Panelist</a><br>
     <a href="https://www.utsc.utoronto.ca/registrar/eligibility" target="_blank">High Distinction Graduate</a><br>
@@ -19,7 +18,7 @@ This is a list of conferences and events I have had the privilege of attending, 
   </p>
   <br>
 
-  ## 2021
+  <h2>2021</h2>
   <p class="no-padding">
     <a href="https://events.google.com/io?lng=en" target="_blank">Google I/O</a><br>
     <a href="https://www.instagram.com/stories/highlights/17915647744745015/" target="_blank">UTSC Arts & Science Co-op Instagram Feature</a><br>
@@ -29,7 +28,7 @@ This is a list of conferences and events I have had the privilege of attending, 
   </p>
   <br>
 
-  ## 2020
+  <h2>2020</h2>
   <p class="no-padding">
     Finalist in <a href="https://www.ibm.com/" target="_blank">IBM</a>'s Student Design competition<br>
     <a href="https://zeroqode.com/zerocodeconf" target="_blank">Zero Code Conference</a><br>
@@ -37,7 +36,7 @@ This is a list of conferences and events I have had the privilege of attending, 
   </p>
   <br>
 
-  ## 2019
+  <h2>2019</h2>
   <p class="no-padding">
     University of Toronto Renewable Scholarship<br>
     <a href="https://elevate.ca/" target="_blank">Elevate</a><br>
@@ -47,7 +46,7 @@ This is a list of conferences and events I have had the privilege of attending, 
   </p>
   <br>
 
-  ## 2018
+  <h2>2018</h2>
   <p class="no-padding">
     <a href="https://buildyourfuture.withgoogle.com/programs/computer-science-summer-institute/#!?detail-content-tabby_activeEl=overview" target="_blank">Google's Computer Science Summer Institute (CSSI)</a><br>
     University of Toronto Scholar<br>
@@ -56,7 +55,7 @@ This is a list of conferences and events I have had the privilege of attending, 
   </p>
   <br>
 
-  ## 2017
+  <h2>2017</h2>
   <p class="no-padding">
     Library Youth Expo Teen Representative
   </p>
