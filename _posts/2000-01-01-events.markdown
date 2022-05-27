@@ -13,9 +13,9 @@ This is a list of conferences and events I have had the privilege of attending, 
 
   ## 2022
   <p class="no-padding">
-    <a href="hhttps://utsc.utoronto.ca/admissions/" target="_blank">Explore UTSC Co-op Panelist</a><br>
-    <a href="https://www.utsc.utoronto.ca/registrar/eligibility">High Distinction Graduate</a><br>
-    Tom Hull Scholarship In Computer Science<br>
+    <a href="https://utsc.utoronto.ca/admissions/" target="_blank">Explore UTSC Co-op Panelist</a><br>
+    <a href="https://www.utsc.utoronto.ca/registrar/eligibility" target="_blank">High Distinction Graduate</a><br>
+    Tom Hull Scholarship In Computer Science
   </p>
   <br>
 
