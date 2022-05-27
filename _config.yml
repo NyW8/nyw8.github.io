@@ -10,19 +10,13 @@ url: https://nyw8.github.io # the base hostname & protocol for your site, e.g. h
 video: mountains.mp4 # add banner video. Add your video file to the folder video
 banner-title: Nyah Way # add banner title
 banner-desc: And still, I rise. - Maya Angelou
-#You cannot get through a single day without having an impact on the world around you. 
-#What you do makes a difference, and you have to decide what kind of difference you want to make. - Jane Goodall # add banner description
-#And still, I rise. - Maya Angelou
-#Hakuna Matata
-#Be limitless
-#Follow your own stars
 
 # Author settings
 author-pic: nyah.png # your photo
 author-name: Nyah Way # your name
 about-author: Computer science specialist graduate from the University of Toronto Scarborough, now pursuing her full-time career at Google. # about author
-email: # your email
-phone: # your pnone number
+email:
+phone:
 website: https://nyw8.github.io # you website
 
 # Social link
