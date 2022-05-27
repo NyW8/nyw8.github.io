@@ -19,17 +19,42 @@ category: pages
 	</a>
 	<h3 class="section_header">EDUCATION</h3>
 	<h5 class="resume_title">
-    University of Toronto
+    Honours Bachelor of Science - University of Toronto
   </h5>
   <p class="date">
     Toronto, Ontario 2018 - 2022
   </p>
   <ul class="details">
-	<li>Computer Science Specialist Co-op Program, 4th year</li>
+	<li>Computer Science Entrepreneurship Specialist Co-op Program</li>
 	<li>University of Toronto Scholar</li>
-	<li>CGPA: 3.96 (out of 4)</li>
+  <li>Tom Hull Scholarship In Computer Science</li>
+  <li>Scarborough College In-Course Scholarship</li>
+	<li>CGPA: 3.95 (out of 4)</li>
+	<li>Graduated with High Distinction</li>
   </ul>
   <h3 class="section_header">EXPERIENCE</h3>
+  <h5 class="resume_title">
+    Site Reliability Engineer at <a href="https://sre.google/">Google</a>
+  </h5>
+  <p class="date">
+     California, United States 07/2022 - PRESENT
+  </p>
+  <ul class="details">
+  <li>Followed <a href="https://sre.google/sre-book/table-of-contents/">site reliability practices</a> to improve client uptime and increase failure detection.</li>
+  </ul>
+    <h5 class="resume_title">
+    Undergraduate Teaching Assistant at <a href="https://www.utsc.utoronto.ca/home/">University of Toronto Scarborough</a>
+  </h5>
+  <p class="date">
+    Toronto, Ontario 04/2019 - 04/2022
+  </p>
+	<ul class="details">
+    <li>Taught tutorials and assisted students with concepts from Computer Science I (CSCA08), Computer Science II (CSCA48), Computer Graphics (CSCD18), and Artificial Intelligence (CSCD84).</li>
+		<li>Checked assignments, proctored tests, and provided grades according to university standards.</li>
+		<li>Mentored students in C programming, linked lists, and other data structures through office hours and one-on-one communication.</li>
+		<li>Prepared lessons according to course outline to convey all required material and deepen student understanding of subject matter.</li>
+    <li>Guided students through structures and theories related to artificial intelligence including heuristics, CSPs, neural networks, and Bayes nets.</li>
+	</ul>
   <h5 class="resume_title">
     Software (Site Reliability) Engineer Intern at <a href="https://about.google/">Google</a>
   </h5>
@@ -62,17 +87,6 @@ category: pages
 	<li>Designed, implemented and monitored web pages using and new features for continuous improvement on corporate e-commerce website.</li>
 	<li>Ran performance checks on .NET framework projects to ensure users encounter 100% problem-free experiences.</li>
   </ul>
-  <h5 class="resume_title">
-    Undergraduate Teaching Assistant at <a href="https://www.utsc.utoronto.ca/home/">University of Toronto Scarborough</a>
-  </h5>
-  <p class="date">
-    Toronto, Ontario 04/2019 - 04/2021
-  </p>
-	<ul class="details">
-		<li>Checked assignments, proctored tests, and provided grades according to university standards.</li>
-		<li>Mentored students in C programming, linked lists, and other data structures through office hours and one-on-one communication.</li>
-		<li>Prepared lessons according to course outline to convey all required material and deepen student understanding of subject matter.</li>
-	</ul>
 	<h5 class="resume_title">
     Junior Software Developer (Co-op) at <a href="https://www.kp9.ca/">KP9 Interactive</a>
   </h5>

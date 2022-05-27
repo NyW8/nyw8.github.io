@@ -259,13 +259,11 @@ PLATFORMS
 
 DEPENDENCIES
   activesupport (>= 4.1.11)
-  commonmarker (= 0.17.13)
-  github-pages (< 226)
+  github-pages (< 224)
   jekyll (~> 3.9.0)
   jekyll-commonmark (= 1.3.1)
   jekyll-feed (~> 0.6)
   jekyll-remote-theme
-  kramdown (= 2.3.1)
   minima (~> 2.0)
   tzinfo-data
 

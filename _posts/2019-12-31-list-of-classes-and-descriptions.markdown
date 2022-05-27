@@ -68,6 +68,11 @@ Examines numerical methods in computing and algorithm implementation to solve pr
 
 Introduces relational algebra, normal forms, and database design. Teaches SQL concepts through abstraction before writing queries and highlights how integrity constraints can be efficiently used.
 
+### CSCC63: Computability and Computational Complexity
+[Link to course][cscc63]
+
+Covers computability theory including turing machines, P and NP problems, NP-completeness, and reducability. Teaches students to think abstractly about computability problems and how to solve them.
+
 ### CSCC73: Algorithm Design and Analysis
 [Link to course][cscc73]
 
@@ -77,6 +82,16 @@ An in-depth comprehensive dive into techniques for designing and analysing algor
 [Link to course][cscc69]
 
 An extremely hands-on course that builds up the mini operating system, Pintos. Consists of 4 increasingly difficult projects that cover bootstrapping, multithreading, virtual memory, and filesystems respectively.
+
+### CSCD01: Engineering Large Software Systems
+[Link to course][cscd01]
+
+Continues the work of CSCC01 by uncovering the ideas behind designing larger software systems. This course contained a group project which had students work on an open source software. In our case, this was scikit-learn.
+
+### CSCD03: Social Impact of Information Technology
+[Link to course][cscd03]
+
+Taken in the last year of every computer science degree, this course takes a hard look at the technologies that now exist or that may exist in the future and how they impact society. Topics include safety-critical software, privacy, cyber-crime, mental health, and ethics.
 
 ### CSC410: Software Testing and Verification
 [Link to course][csc410]
@@ -88,10 +103,25 @@ Jumps between coding languages and methods to prove algorithm correctness, forma
 
 Details how computer-generated images and videos are created while focusing on ray-tracing, path-tracing, illumination, object manipulation, cameras, and lenses. Builds the ability to create a fully working 3D rendering engine.
 
+### CSCD27: Computer and Network Security
+[Link to course][cscd27]
+
+Explains how computers and networks function and different processes to make them more secure. This course covers hashing, key management, authentication, network attacks and prevention, as well as social engineering attacks and data integrity.
+
+### CSCD54: Technology Innovation and Entreprenurship
+[Link to course][cscd54]
+
+This course is paired with CSCD90 to create an entreprenurial idea and bring it to life. D54 specifically puts a spotlight on business models, startup techniques, and financing.
+
 ### CSCD84: Artificial Intelligence
 [Link to course][cscd84]
 
 Theories and algorithms of artificial intelligence through assignments in game playing, decision making with uncertainty, and image recognition. Considers Markov decision processes, neural nets, heuristics, and reinforcement learning.
+
+### CSCD90: The Startup Sandbox
+[Link to course][cscd90]
+
+This course is paired with CSCD54 to create an entreprenurial idea and bring it to life. D90 specifically focuses on creating and selling the product using written reports, pitches, and a showcase of the final product.
 
 # Math classes:
 
@@ -152,6 +182,11 @@ Explores the composition, structure, and origin of the Earth and its history fro
 
 Introduces theories and methods in linguistics. Covers semantics, sentence structure, words, and meanings as well as smaller topics relating to other languages.
 
+### LINA02: Applications of Linguistics
+[Link to course][lina02]
+
+Continues the theories and methods from LINA01 with a closer focus on how language changes. Covers language acquisition, how the brain processes language, and the sociology surrounding it.
+
 ### LGGA60: Introductory Standard Chinese I
 [Link to course][lgga60]
 
@@ -161,6 +196,21 @@ An introduction to learning Mandarin, using speech, listening, and reading and w
 [Link to course][lgga61]
 
 A further introduction to Mandarin, including speech, listening, reading, and writing characters. Builds on the previous introductory course, LGGA60.
+
+### MGTA01: Introduction to Business
+[Link to course][mgta01]
+
+Organizes theories and ideas about how businesses are run and how they work. Focuses on the planning and creation of businesses and how they nestle within economical systems.
+
+### MUS210: Music in Film
+[Link to course][mus210]
+
+Provides a window from the watcher's perspective of how music and film influence each other. This class uses varying themes and decades to show how this changes throughout time.
+
+### VPAA10: Introduction to Arts and Media Management
+[Link to course][vpaa10]
+
+Gives an insider view into how media management works and what steps are involved in the management of the arts. Covers not-for-profit, as well as for-profit and enterprise sectors.
 
 
 [csca08]: https://utsc.calendar.utoronto.ca/course/csca08h3
@@ -177,10 +227,16 @@ A further introduction to Mandarin, including speech, listening, reading, and wr
 [csc336]: https://fas.calendar.utoronto.ca/course/CSC336H1
 [cscc43]: https://utsc.calendar.utoronto.ca/course/cscc43h3
 [cscc73]: https://utsc.calendar.utoronto.ca/course/cscc73h3
+[cscc63]: https://utsc.calendar.utoronto.ca/course/cscc63h3
 [cscc69]: https://utsc.calendar.utoronto.ca/course/cscc69h3
 [csc410]: https://fas.calendar.utoronto.ca/course/CSC410H1
+[cscd01]: https://utsc.calendar.utoronto.ca/course/cscd01h3
+[cscd03]: https://utsc.calendar.utoronto.ca/course/cscd03h3
 [cscd18]: https://utsc.calendar.utoronto.ca/course/cscd18h3
+[cscd27]: https://utsc.calendar.utoronto.ca/course/cscd27h3
+[cscd54]: https://utsc.calendar.utoronto.ca/course/cscd54h3
 [cscd84]: https://utsc.calendar.utoronto.ca/course/cscd84h3
+[cscd90]: https://utsc.calendar.utoronto.ca/course/cscd90h3
 [mata31]: https://utsc.calendar.utoronto.ca/course/mata31h3
 [mata37]: https://utsc.calendar.utoronto.ca/course/mata37h3
 [mata22]: https://utsc.calendar.utoronto.ca/course/mata22h3
@@ -190,6 +246,10 @@ A further introduction to Mandarin, including speech, listening, reading, and wr
 [stab52]: https://utsc.calendar.utoronto.ca/course/stab52h3
 [phla10]: https://utsc.calendar.utoronto.ca/course/phla10h3
 [lina01]: https://utsc.calendar.utoronto.ca/course/lina01h3
+[lina02]: https://utsc.calendar.utoronto.ca/course/lina02h3
 [lgga60]: https://utsc.calendar.utoronto.ca/course/lgga60h3
 [lgga61]: https://utsc.calendar.utoronto.ca/course/lgga61h3
 [eesa06]: https://utsc.calendar.utoronto.ca/course/eesa06h3
+[mus210]: https://artsci.calendar.utoronto.ca/course/mus210h1
+[mgta01]: https://utsc.calendar.utoronto.ca/course/mgta01h3
+[vpaa10]: https://utsc.calendar.utoronto.ca/course/vpaa10h3
