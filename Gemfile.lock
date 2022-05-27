@@ -272,11 +272,10 @@ PLATFORMS
 
 DEPENDENCIES
   activesupport (>= 4.1.11)
-  github-pages
+  github-pages (< 224)
   jekyll (~> 3.9.0)
   jekyll-feed (~> 0.6)
   jekyll-remote-theme
-  kramdown (>= 2.3.1)
   minima (~> 2.0)
   tzinfo-data
 
