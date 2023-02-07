@@ -3,7 +3,7 @@ layout: post
 title: "Rakuten Kobo Co-op"
 img: kobo-banner.jpg # Add image post (optional)
 date: 2019-09-01 12:55:00 +0300
-description: A co-op at Raktuen Kobo as a QA and full-stack developer.
+description: A co-op at Rakuten Kobo as a QA and full-stack developer.
 tag: [coursework]
 category: coursework
 ---
