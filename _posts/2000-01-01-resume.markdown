@@ -14,9 +14,9 @@ category: pages
 	<h5 class="details">
 	  <a href="{{ site.baseurl }}/about/">Nyah Way</a> is a   versatile female developer versed in object oriented and  systems programming, including Android development,  server-side and web development, and abstract data types.  Self-directed and unafraid of new challenges.
 	  <br>
-	  <a href="{{ site.baseurl }}/contact/" class="details">
+	  <!-- <a href="{{ site.baseurl }}/contact/" class="details">
 	    Click here to contact me using my contact form.
-	  </a>
+	  </a> -->
   </h5>
 	<h3 class="section_header">EDUCATION</h3>
 	<h5 class="resume_title">
@@ -56,6 +56,7 @@ category: pages
 		<li>Prepared lessons according to course outline to convey all required material and deepen student understanding of subject matter.</li>
     <li>Guided students through structures and theories related to artificial intelligence including heuristics, CSPs, neural networks, and Bayes nets.</li>
 	</ul>
+  <p class="technologies details">Technologies: C, Python, JavaScript</p>
   <h5 class="resume_title">
     Software (Site Reliability) Engineer Intern at <a href="https://about.google/">Google</a>
   </h5>
@@ -77,6 +78,7 @@ category: pages
 	<li>Developed dashboard using SQL to display rolling averages and trends based on time metrics.</li>
 	<li>Met with stakeholders on weekly basis to provide detailed project report and milestone updates.</li>
   </ul>
+  <p class="technologies">Technologies: Golang, Python, Bash, SQL, Perl, Docker</p>
   <h5 class="resume_title">
     Software Full Stack and QA Developer (Co-op) at <a href="https://www.kobo.com/">Rakuten Kobo</a>
   </h5>
@@ -88,6 +90,7 @@ category: pages
 	<li>Designed, implemented and monitored web pages using and new features for continuous improvement on corporate e-commerce website.</li>
 	<li>Ran performance checks on .NET framework projects to ensure users encounter 100% problem-free experiences.</li>
   </ul>
+  <p class="technologies">Technologies: .NET, JavaScript, C#, SQL</p>
 	<h5 class="resume_title">
     Junior Software Developer (Co-op) at <a href="https://www.kp9.ca/">KP9 Interactive</a>
   </h5>
@@ -99,6 +102,7 @@ category: pages
 		<li>Collaborated on all stages of Android development lifecycle, from requirements gathering to production releases.</li>
 		<li>Performed testing on software to uncover bugs and troubleshoot issues before application launches.</li>
 	</ul>
+  <p class="technologies">Technologies: C#, Android Studio, Unity</p>
 	<h5 class="resume_title">
     Computer Science Summer Institute Participant (Unpaid) at <a href="https://google.com">Google</a>
   </h5>
@@ -110,6 +114,7 @@ category: pages
 			<li>Created, designed, and developed websites in HTML and CSS with JS and Python backend over three weeks to create professional websites and databases.</li>
 			<li>Collaborated with a team using Github and terminal controls to update code, patch errors, resulting in a more solid and secure website.</li>
 	</ul>
+  <p class="technologies">Technologies: JavaScript, Python, HTML & CSS, Google Cloud Platform (GCP)</p>
   <h3 class="section_header">PROJECTS</h3>
   <a class="details" href="{{site.baseurl}}/projects/">See my projects on this page</a>
   <h3 class="section_header">COURSEWORK</h3>

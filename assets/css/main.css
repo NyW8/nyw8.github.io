@@ -3888,11 +3888,16 @@ body {
 }
 .resume .resume_title {
 	font-size: 1.2rem;
-	margin:20px 0 0;
+	margin:15px 0 0;
 }
 .resume .details {
 	font-size: 1.0rem;
 	margin: 0;
+}
+.resume .technologies {
+  font-size: 1.0rem;
+  margin: 15px 0; 
+  color: black;
 }
 .resume {
 	animation-delay:0.8s;
