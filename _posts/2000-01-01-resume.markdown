@@ -56,7 +56,7 @@ category: pages
 		<li>Prepared lessons according to course outline to convey all required material and deepen student understanding of subject matter.</li>
     <li>Guided students through structures and theories related to artificial intelligence including heuristics, CSPs, neural networks, and Bayes nets.</li>
 	</ul>
-  <p class="technologies details">Technologies: C, Python, JavaScript</p>
+  <p class="technologies details">Technologies: C, Python, JavaScript, HTML & CSS</p>
   <h5 class="resume_title">
     Software (Site Reliability) Engineer Intern at <a href="https://about.google/">Google</a>
   </h5>
@@ -102,7 +102,7 @@ category: pages
 		<li>Collaborated on all stages of Android development lifecycle, from requirements gathering to production releases.</li>
 		<li>Performed testing on software to uncover bugs and troubleshoot issues before application launches.</li>
 	</ul>
-  <p class="technologies">Technologies: C#, Android Studio, Unity</p>
+  <p class="technologies">Technologies: C#, Android Studio, Unity, Wearables (AR/VR)</p>
 	<h5 class="resume_title">
     Computer Science Summer Institute Participant (Unpaid) at <a href="https://google.com">Google</a>
   </h5>
