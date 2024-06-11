@@ -12,7 +12,7 @@ category: pages
 	<h3 class="section_header">SUMMARY</h3>
 	<br>
 	<h5 class="details">
-	  <a href="{{ site.baseurl }}/about/">Nyah Way</a> is a   versatile female developer versed in object oriented and  systems programming, including Android development,  server-side and web development, and abstract data types.  Self-directed and unafraid of new challenges.
+	  <a href="{{ site.baseurl }}/about/">Nyah Way</a> is a top performing engineer with industry experience in augmented reality, mobile development, education, and full stack development. She's worked with large-scale systems to improve uptime and handle data efficiently, increasing the durability of YouTube for over 2 billion users. She is self-directed and unafraid of new challenges.
 	  <br>
 	  <!-- <a href="{{ site.baseurl }}/contact/" class="details">
 	    Click here to contact me using my contact form.
@@ -35,13 +35,16 @@ category: pages
   </ul>
   <h3 class="section_header">EXPERIENCE</h3>
   <h5 class="resume_title">
-    Site Reliability Engineer at <a href="https://sre.google/">Google</a>
+    Software Engineer (L4), Site Reliability at <a href="https://sre.google/">Google</a>
   </h5>
   <p class="date">
      California, United States 07/2022 - PRESENT
   </p>
   <ul class="details">
+  <li>Collaborated with stakeholders on engineering projects to increase reliability of YouTube for over 2 billion users.</li>
   <li>Followed <a href="https://sre.google/sre-book/table-of-contents/">site reliability practices</a> to improve client uptime and increase failure detection.</li>
+  <li>Designed and implemented monitoring systems and dashboards to alert customers, onboarding over 100 clients.</li>
+  <li>Supported the migration of over 40 clients to combine stores of video metadata while working in a fast-paced and high-visibility environment and ensuring zero downtime.</li>
   </ul>
     <h5 class="resume_title">
     Undergraduate Teaching Assistant at <a href="https://www.utsc.utoronto.ca/home/">University of Toronto Scarborough</a>
