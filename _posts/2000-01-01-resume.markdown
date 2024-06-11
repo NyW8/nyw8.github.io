@@ -53,11 +53,10 @@ category: pages
     Toronto, Ontario 04/2019 - 04/2022
   </p>
 	<ul class="details">
-    <li>Taught tutorials and assisted students with concepts from Computer Science I (CSCA08), Computer Science II (CSCA48), Computer Graphics (CSCD18), and Artificial Intelligence (CSCD84).</li>
+    <li>Tutored and supported over 150 students in Computer Science I & II, Computer Graphics, and Artificial Intelligence.</li>
+    <li>Developed engaging lessons for course material to deepen student knowledge, particularly in artificial intelligence topics like heuristics, CSPs, neural networks, and Bayes nets.</li>
+    <li>Effectively managed schedules and logistics for office hours and classwork, maximizing student access to support and resources in topics like C programming, linked lists, and complex data structures.</li>
 		<li>Checked assignments, proctored tests, and provided grades according to university standards.</li>
-		<li>Mentored students in C programming, linked lists, and other data structures through office hours and one-on-one communication.</li>
-		<li>Prepared lessons according to course outline to convey all required material and deepen student understanding of subject matter.</li>
-    <li>Guided students through structures and theories related to artificial intelligence including heuristics, CSPs, neural networks, and Bayes nets.</li>
 	</ul>
   <p class="technologies details">Technologies: C, Python, JavaScript, HTML & CSS</p>
   <h5 class="resume_title">
@@ -101,9 +100,9 @@ category: pages
     Toronto, Ontario 02/2018 - 09/2019
   </p>
 	<ul class="details">
-		<li>Developed object-oriented software, including C# and Android Studio for use in mobile applications.</li>
-		<li>Collaborated on all stages of Android development lifecycle, from requirements gathering to production releases.</li>
-		<li>Performed testing on software to uncover bugs and troubleshoot issues before application launches.</li>
+      <li>Developed object-oriented applications, leveraging C# and Android Studio for use in AR mobile applications to deliver engaging augmented reality experiences.</li>
+      <li>Collaborated on all stages of Android development lifecycle, from requirements gathering to incorporating feedback.</li>
+      <li>Independently identified and resolved critcal bugs and performance issues, ensuring successful mobile applications.</li>
 	</ul>
   <p class="technologies">Technologies: C#, Android Studio, Unity, Wearables (AR/VR)</p>
 	<h5 class="resume_title">
@@ -113,7 +112,7 @@ category: pages
     Austin, Texas 07/2018 - 08/2018
   </p>
 	<ul class="details">
-			<li>Demonstrated Python skills, resulting in being accepted as one of 15 participants in Austin to take part in a computer science program.</li>
+			<li>Applied Python knowledge, resulting in being accepted as one of 15 participants in Austin to take part in a computer science program.</li>
 			<li>Created, designed, and developed websites in HTML and CSS with JS and Python backend over three weeks to create professional websites and databases.</li>
 			<li>Collaborated with a team using Github and terminal controls to update code, patch errors, resulting in a more solid and secure website.</li>
 	</ul>

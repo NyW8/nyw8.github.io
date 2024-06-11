@@ -10,6 +10,13 @@ category: pages
 This is a list of conferences and events I have had the privilege of attending, and also of awards I have received.
 
 <div class="events">
+  <h2>2023</h2>
+  <p class="no-padding">
+    SRE Women's Summit Site Coordinator<br>
+    <a href="https://adahacks.com/" target="_blank">AdaHacks Panelist & Mentor</a>
+  </p>
+  <br>
+
   <h2>2022</h2>
   <p class="no-padding">
     <a href="https://www.utsc.utoronto.ca/ctl/utsc-teaching-awards" target="_blank">2021-22 CMS Teaching Assistant Award</a><br>
