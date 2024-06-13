@@ -6,11 +6,21 @@ date: 2000-01-01 12:00:00 +0300
 description: Nyah Way's resume including work experience, education, and links to projects she has worked on.
 tag: [pages]
 category: pages
+unique_page_id: resume_body
+show_print: true
 ---
 
 <div class="resume">
+  <div class="printer_shown">
+    <hr>
+    <h3 class="resume_name">NYAH WAY</h3>
+    <hr>
+    <hr>
+    <p class="details resume_top">San Bruno, California</p>
+    <p class="details resume_top"><a href="https://nyw8.github.io">https://nyw8.github.io</a> | <a href="https://www.linkedin.com/in/nyah-way">linkedin.com/in/nyah-way</a></p>
+  </div>
 	<h3 class="section_header">SUMMARY</h3>
-	<br>
+  <hr>
 	<h5 class="details">
 	  <a href="{{ site.baseurl }}/about/">Nyah Way</a> is a top performing engineer with industry experience in augmented reality, mobile development, education, and full stack development. She's worked with large-scale systems to improve uptime and handle data efficiently, increasing the durability of YouTube for over 2 billion users. She is self-directed and unafraid of new challenges.
 	  <br>
@@ -19,6 +29,7 @@ category: pages
 	  </a> -->
   </h5>
 	<h3 class="section_header">EDUCATION</h3>
+  <hr>
 	<h5 class="resume_title">
     Honours Bachelor of Science - University of Toronto
   </h5>
@@ -34,6 +45,7 @@ category: pages
 	<li>Graduated with High Distinction</li>
   </ul>
   <h3 class="section_header">EXPERIENCE</h3>
+  <hr>
   <h5 class="resume_title">
     Software Engineer (L4), Site Reliability at <a href="https://sre.google/">Google</a>
   </h5>
@@ -46,6 +58,7 @@ category: pages
   <li>Designed and implemented monitoring systems and dashboards to alert customers, onboarding over 100 clients.</li>
   <li>Supported the migration of over 40 clients to combine stores of video metadata while working in a fast-paced and high-visibility environment and ensuring zero downtime.</li>
   </ul>
+  <p class="technologies details">Technologies: C++, Python, Bash, internal frameworks/languages</p>
     <h5 class="resume_title">
     Undergraduate Teaching Assistant at <a href="https://www.utsc.utoronto.ca/home/">University of Toronto Scarborough</a>
   </h5>
@@ -69,6 +82,7 @@ category: pages
   <li>Worked on an eventually consistent key-value store to improved runtime efficiency for high-utilization clients.</li>
 	<li>Developed dashboards to improve observability for better reliability debugging and bandwidth load, and ensure better client visibility within the system.</li>
   </ul>
+  <p class="technologies details">Technologies: Python, SQL, C++, internal frameworks/languages</p>
   <h5 class="resume_title">
     Software Engineer (Co-op) at <a href="https://www.indexexchange.com/">Index Exchange</a>
   </h5>
@@ -117,8 +131,12 @@ category: pages
 			<li>Collaborated with a team using Github and terminal controls to update code, patch errors, resulting in a more solid and secure website.</li>
 	</ul>
   <p class="technologies">Technologies: JavaScript, Python, HTML & CSS, Google Cloud Platform (GCP)</p>
-  <h3 class="section_header">PROJECTS</h3>
-  <a class="details" href="{{site.baseurl}}/projects/">See my projects on this page</a>
-  <h3 class="section_header">COURSEWORK</h3>
-  <a class="details" href="{{site.baseurl}}/list-of-classes-and-descriptions/">See my courses and coursework on this page</a>
+  <div class="printer_hidden">
+    <h3 class="section_header">PROJECTS</h3>
+    <hr>
+    <a class="details" href="{{site.baseurl}}/projects/">See my projects on this page</a>
+    <h3 class="section_header">COURSEWORK</h3>
+    <hr>
+    <a class="details" href="{{site.baseurl}}/list-of-classes-and-descriptions/">See my courses and coursework on this page</a>
+  </div>
 </div>

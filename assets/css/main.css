@@ -3866,44 +3866,100 @@ body {
 
 
 /*------Resume page--------*/
-.resume .date{
-	font-size: 0.8rem;
-	color: grey;
-	margin: 0;
+@media print {
+
+  #resume_body {
+    .main_header, .author, .recent_box, .main_footer, .post_image, .post_wrapper, .printer_hidden, .up {
+      display: none;
+    }
+    .post_content {
+      margin-top: 0;
+    }
+    header {
+      margin: 5px;
+    }
+    .resume {
+      .printer_shown {
+        display: block;
+        text-align: center;
+      }
+      .section_header {
+        font-size: 1rem;
+        color: #d70606;
+      }
+      .resume_title {
+        font-size: 1rem;
+        margin: 0;
+      }
+      .resume_name {
+        font-size: 1.5rem;
+        margin: 0;
+        color: #d70606;
+      }
+      a, date {
+        color: #4f3c2f;
+      }
+      .resume_top {
+        color: #4f3c2f;
+      }
+
+      font-size: 0.9rem;
+    }
+  }
 }
-.resume .section_header {
-	font-size: 1.5rem;
-	margin: 20px 0 0;
-	color:#069;
+
+@media only screen and (max-width: 565px) {
+  .post_footer .print_option {
+    display: none;
+  }
 }
-.resume .title{
-	color: white;
-	padding-left: 6vw;
-	padding-top: 10px;
-	margin: 0;
-}
-.resume a{
-	color: #4fa5d0;
-	text-decoration: none;
-}
-.resume .resume_title {
-	font-size: 1.2rem;
-	margin:15px 0 0;
-}
-.resume .details {
-	font-size: 1.0rem;
-	margin: 0;
-}
-.resume .technologies {
-  font-size: 1.0rem;
-  margin: 15px 0; 
-  color: black;
-}
+
 .resume {
-	animation-delay:0.8s;
-	animation-duration:0.7s;
-	animation-fill-mode: both;
-	animation-name: fadeInDown;
+  .printer_shown {
+    display: none;
+  }
+  .date{
+  	font-size: 0.8rem;
+  	color: darkslategrey;
+  	margin: 5px 0;
+  }
+  p {
+    color: black;
+    line-height: 1;
+  }
+  .section_header {
+  	font-size: 1.5rem;
+  	margin: 20px 0 0;
+  	color:#069;
+  }
+  .title{
+  	color: white;
+  	padding-left: 6vw;
+  	padding-top: 10px;
+  	margin: 0;
+  }
+  a{
+  	color: #4fa5d0;
+  	text-decoration: none;
+  }
+  .resume_title {
+  	font-size: 1.2rem;
+  	margin:15px 0 0;
+  }
+  .details {
+  	font-size: 1.0rem;
+  	margin: 0;
+    font-weight: normal;
+  }
+  .technologies {
+    font-size: 1.0rem;
+    margin: 0 0 7px; 
+    color: black;
+  }
+  animation-delay:0.8s;
+  animation-duration:0.7s;
+  animation-fill-mode: both;
+  animation-name: fadeInDown;
 }
 /*-------end resume page------*/
 
@@ -4410,6 +4466,10 @@ cite {
 
 .post_footer .post_share {
   float: left;
+}
+
+.post_footer .print_option {
+  float: right;
 }
 
 .post_footer .post_share a {
