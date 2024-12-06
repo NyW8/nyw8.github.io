@@ -15,7 +15,7 @@ category: pages
     <p class="author_subtitle">
     Nyah is a University of Toronto Scarborough graduate with much experience in computer science. She enjoys working on new projects and learning new languages, frameworks, and ways to program. Her hobbies include photography, baking, and programming.
     <br><br>
-    Currently, Nyah is pursuing her career in the software world as a Site Reliability Engineer at Google. She completed her university degree in computer science in April 2022, and previously worked in co-ops such as being a Site Reliability Engineer Intern at Google, a Software Engineer/QA developer at Rakuten Kobo, and a Software Developer Co-op at Index Exchange.
+    Currently, Nyah is pursuing her career in the software world as a Sowftware Engineer at Google. She completed her university degree in computer science in April 2022, and previously worked in co-ops such as being a Site Reliability Engineer Intern at Google, a Software Engineer/QA developer at Rakuten Kobo, and a Software Developer Co-op at Index Exchange.
     </p>
   </div>
 </div>
